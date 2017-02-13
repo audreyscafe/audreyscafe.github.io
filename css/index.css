@@ -1,0 +1,24 @@
+/*
+ * This is a page-specific css file for index.html
+ */
+
+section div:first-child {
+  padding: 15px;
+  font-size: 18px;
+  min-height: 300px;
+}
+#hours-and-location {
+  background-color: #E0EEEE;
+}
+#deals {
+  background-color: #C1F0F6;
+}
+#featured-drinks {
+  background-color: #ADEAEA;
+}
+#gallery {
+  background-color: #96CDCD;
+}
+#footer {
+  background-color: #66CCCC;
+}

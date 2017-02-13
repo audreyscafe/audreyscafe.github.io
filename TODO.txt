@@ -1,0 +1,10 @@
+TODO:
+
+- need a favicon.gif
+- transparent logo, preferrably in gif format so it's smaller
+- add information to footer
+
+UNCLEAR:
+
+- logo on nav bar?
+- instagram link or social media icons? (top/bottom?)
