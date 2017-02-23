@@ -7,20 +7,24 @@ main {
 }
 section {
   height: 300px;
+  margin-bottom: 10px;
 }
 #hours-and-location {
   background-color: #E0EEEE;
 }
 #deals-and-featured {
   background-color: #C1F0F6;
+  height: 300px;
 }
 #deals {
   background-color: aqua;
-  height: 100%
+  height: 300px;
+  margin-bottom: 10px;
 }
 #featured-drinks {
   background-color: aquamarine;
-  height: 100%;
+  height: 300px;
+  margin-bottom: 10px;
 }
 /*
 #featured-drinks {
@@ -29,5 +33,6 @@ section {
 */
 #gallery {
   background-color: #96CDCD;
+  height: 300px;
 }
 
