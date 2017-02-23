@@ -60,41 +60,42 @@
         </div>
     </nav>    
 
-    <main class="container">
+    <main class="container-fluid">
       <section class="row" id="hours-and-location">
         <div>Hours and Location</div>
       </section>
 
-      <section class="row" id="deals">
-        <div>Deals</div>
-      </section>
-
-      <section class="row" id="featured-drinks">
-        <div>Featured Drinks</div>
+      <section class="row" id="deals-and-featured">
+        <div class="col-sm-6" id="deals">
+          Deals
+        </div>
+        <div class="col-sm-6" id="featured-drinks">
+          Featured Drinks
+        </div>
       </section>
 
       <section class="row" id="gallery">
-        <div>Gallery</div>
+        <div class="col-xs-12">
+          Gallery
         <!-- might want a Bootstrap carousel here:
             http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php -->
+        </div>
       </section>
 
       <section class="row" id="footer">
-        <div>Footer</div>
+        <div class="col-xs-6" id="footer-left">
+          General Hours, Finals Hours
+        </div>
+        <div class="col-xs-6" id="footer-right">Phone, Email, Location
+        </div>
         <!--
-          General Hours
-          Phone, Email
-          Location
-          Finals Hours
-        -->
         <div class="social">
           <img src="icons/facebook.png" alt="Facebook" height="16">
           <img src="icons/twitter.png" alt="Twitter" height="16">
           <img src="icons/instagram.png" alt="Instagram" height="16">
         </div>
+        -->
       </section>
-      
-
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

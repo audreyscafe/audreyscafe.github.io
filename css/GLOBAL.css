@@ -4,3 +4,14 @@
  * Use page-specific css files for page-specific style changes.
  */
 
+#footer {
+  background-color: #66CCCC;
+}
+#footer-left {
+  background-color: orange;
+  height: 100%;
+}
+#footer-right {
+  background-color: yellow;
+  height: 100%;
+}

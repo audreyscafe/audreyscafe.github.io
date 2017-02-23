@@ -2,23 +2,32 @@
  * This is a page-specific css file for index.html
  */
 
-section div:first-child {
-  padding: 15px;
-  font-size: 18px;
-  min-height: 300px;
+main {
+  background-color: red;
+}
+section {
+  height: 300px;
 }
 #hours-and-location {
   background-color: #E0EEEE;
 }
-#deals {
+#deals-and-featured {
   background-color: #C1F0F6;
 }
+#deals {
+  background-color: aqua;
+  height: 100%
+}
+#featured-drinks {
+  background-color: aquamarine;
+  height: 100%;
+}
+/*
 #featured-drinks {
   background-color: #ADEAEA;
 }
+*/
 #gallery {
   background-color: #96CDCD;
 }
-#footer {
-  background-color: #66CCCC;
-}
+
