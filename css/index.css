@@ -8,6 +8,7 @@ main {
 section {
   height: 300px;
   margin-bottom: 10px;
+  text-align: center;
 }
 #hours-and-location {
   background-color: #E0EEEE;
