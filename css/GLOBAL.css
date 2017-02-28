@@ -6,13 +6,14 @@
 
 #footer {
   background-color: #66CCCC;
+  height: 150px;
 }
 #footer-left {
-  background-color: orange;
+  background-color: brown;
   height: 100%;
 }
 #footer-right {
-  background-color: yellow;
+  background-color: chocolate;
   height: 100%;
 }
 
