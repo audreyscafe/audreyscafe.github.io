@@ -19,7 +19,7 @@ section {
 .header-bg {
   position: absolute;
   z-index: 5;
-  background-image: url("./images/temp-homepage-header.png");
+  /* background-image: url("./images/temp-homepage-header.png"); */
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100px;
