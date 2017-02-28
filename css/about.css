@@ -1,0 +1,63 @@
+/*
+ * This is a page-specific css file for about.html
+ */
+
+section {
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: aqua;
+}
+
+header {
+  height: 350px;
+  background-color: blue;
+  text-align: center;
+}
+.short-header {
+  height: 250px;
+  background-color: green;
+}
+
+main {
+  background-color: red;
+}
+
+h1 {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+.content-area {
+  height: auto;
+  background-color: orange;
+  margin: 10px 60px;
+}
+/* MOBILE ADJUSTMENTS */
+@media screen and (max-width: 768px) {
+  .content-area {
+  margin: 10px 0px;
+  }
+}
+.content-text-container {
+  background-color: gold;
+  height: 280px;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+.content-image-container {
+  background-color: khaki;
+  height: 280px;
+  min-width: 100px;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+.content-text {
+  background-color: lightgray;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.content-image {
+  background-color: lavender;
+  height: 200px;
+  margin-bottom: 10px;
+}

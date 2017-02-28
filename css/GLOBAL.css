@@ -9,18 +9,29 @@ body {
 }
 
 #footer {
+<<<<<<< HEAD
   background-color: #4990E2;
   padding-left: 15px;
   padding-top: 5px;
+=======
+  background-color: #66CCCC;
+  height: 150px;
+>>>>>>> efcc2e1bcf6769c2bb67124f8362367ab91d8893
 }
 
 #footer-left {
+<<<<<<< HEAD
   background-color: #4990E2;
   height: 60%;
   padding-left: 2%;
+=======
+  background-color: brown;
+  height: 100%;
+>>>>>>> efcc2e1bcf6769c2bb67124f8362367ab91d8893
 }
 
 #footer-right {
+<<<<<<< HEAD
   background-color: #4990E2;
   height: 60%;
 }
@@ -35,3 +46,13 @@ h3 {
   color: white;
   font-size: 1.25em;
 }
+=======
+  background-color: chocolate;
+  height: 100%;
+}
+
+#main-picture {
+	background-color: #E0EEEE;
+	height: 300px;
+}
+>>>>>>> efcc2e1bcf6769c2bb67124f8362367ab91d8893
