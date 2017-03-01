@@ -4,17 +4,36 @@
  * Use page-specific css files for page-specific style changes.
  */
 
+body {
+  font-family: 'Karla', sans-serif;
+}
+
 #footer {
-  background-color: #66CCCC;
-  height: 150px;
+  background-color: #4990E2;
+  padding-left: 15px;
+  padding-top: 5px;
 }
+
 #footer-left {
-  background-color: brown;
-  height: 100%;
+  background-color: #4990E2;
+  height: 60%;
+  padding-left: 2%;
 }
+
 #footer-right {
-  background-color: chocolate;
-  height: 100%;
+  background-color: #4990E2;
+  height: 60%;
+}
+
+h2 {
+  color: #AED3FF;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-size: 1.25em;
 }
 
 #main-picture {
