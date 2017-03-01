@@ -9,21 +9,27 @@ header {
   height: 350px;
   background-color: blue;
 }
+
+
+
 section {
   margin-bottom: 10px;
  
 }
+
+
 #hours-and-location {
   background-color: #E0EEEE;
+
 }
 .header-bg {
   position: absolute;
   z-index: 5;
-  /* background-image: url("./images/temp-homepage-header.png"); */
-  background-size: 100%;
+  background-image: url("https://audreyscafe.github.io/images/temp-homepage-header.png"); 
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: inherit;
 }
 .header-text {
   position: absolute;
