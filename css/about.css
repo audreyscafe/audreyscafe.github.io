@@ -4,7 +4,6 @@
 
 section {
   margin-bottom: 10px;
-
   background-color: aqua;
 }
 
@@ -14,7 +13,7 @@ header {
   text-align: center;
 }
 .short-header {
-  height: 250px;
+  height: 300px;
   background-color: green;
 }
 
@@ -30,34 +29,46 @@ h1 {
 .content-area {
   height: auto;
   background-color: orange;
-  margin: 10px 60px;
+  margin: 10px 10%;
+  padding: 0px;
 }
-/* MOBILE ADJUSTMENTS */
-@media screen and (max-width: 768px) {
-  .content-area {
-  margin: 10px 0px;
-  }
+.content-text-and-image {
+  background-color: turquoise;
 }
 .content-text-container {
   background-color: gold;
-  height: 280px;
-  padding: 40px;
-  margin-bottom: 10px;
+  height: auto;
+  padding: 30px;
 }
 .content-image-container {
   background-color: khaki;
-  height: 280px;
+  height: 100%;
   min-width: 100px;
-  padding: 40px;
-  margin-bottom: 10px;
+  padding: 30px;
 }
 .content-text {
   background-color: lightgray;
-  height: 200px;
+  height: auto;
   margin-bottom: 10px;
 }
 .content-image {
   background-color: lavender;
   height: 200px;
   margin-bottom: 10px;
+}
+hr {
+  margin: 0px 10%;
+}
+
+/* ADJUSTMENTS FOR SM SCREEN SIZE*/
+@media screen and (max-width: 992px) {
+  .content-area, hr {
+    margin: 10px 5%;
+  }
+}
+/* ADJUSTMENTS FOR XS SCREEN SIZE*/
+@media screen and (max-width: 768px) {
+  .content-area, hr {
+    margin: 10px 0px;
+  }
 }
