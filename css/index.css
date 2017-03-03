@@ -49,10 +49,27 @@ section {
   height: 300px;
   margin-bottom: 10px;
 }
+
+#deals-label{
+  width: 60%;
+  min-width: 300px;
+  
+}
 #featured-drinks {
   background-color: aquamarine;
   height: 300px;
   margin-bottom: 10px;
+  background-image: url("https://audreyscafe.github.io/images/temp-homepage-header.png");
+  width: 100%;
+  text-align: center;
+ 
+}
+
+#featured-drinks-label{
+
+  width: 60%;
+  min-width: 300px;
+
 }
 /*
 #featured-drinks {
