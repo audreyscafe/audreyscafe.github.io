@@ -8,6 +8,11 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+nav img {
+  position: absolute;
+  top: 15px;
+}
+
 #footer {
   background-color: #4990E2;
   padding-left: 15px;
