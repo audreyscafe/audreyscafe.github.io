@@ -28,6 +28,10 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
 
+    <!-- Carousel -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <title>Home - Audrey's Cafe</title>
     <style>
     </style>
@@ -78,11 +82,11 @@
 
       <!--Row with two columns divided in 1:2 ratio-->
       <section class="row">
-          <div class="col-xs-12">
-              <div id="gallery">Gallery
-                <!-- might want a Bootstrap carousel here:
-            http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php -->
-              </div>
+          <div class="col-xs-12" id="gallery">Gallery
+              <div> <img class="fade" src="coffeepour.png"> </div>
+              <div> <img class="fade" src="coffeepour.png"> </div>
+              <div> <img class="fade" src="coffeepour.png"> </div>
+            </div>
           </div>
       </section>
 
@@ -114,6 +118,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 
+    <!-- Script for carousel -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.fade').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+      });
+    </script>
+    
     <noscript>
       <!-- handle noscript if time allows -->
       Your browser does not support JavaScript!
