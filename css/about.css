@@ -5,6 +5,7 @@
 section {
   margin-bottom: 10px;
   background-color: aqua;
+  color: #3C3C3C;
 }
 
 header {
@@ -32,32 +33,68 @@ h1 {
   margin: 10px 10%;
   padding: 0px;
 }
+
+#ourstory{
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+  margin: 0px 160px 0px 160px;
+}
+
+#sustainability {
+  width: 80%;
+  min-width: 300px;
+}
+
+#story {
+ width: 30%;
+ min-width: 200px;
+}
+
+#hiring {
+  width: 40%;
+  min-width: 150px;
+}
+
 .content-text-and-image {
   background-color: turquoise;
 }
+
 .content-text-container {
   background-color: gold;
   height: auto;
   padding: 30px;
 }
+
 .content-image-container {
   background-color: khaki;
   height: 100%;
   min-width: 100px;
   padding: 30px;
 }
+
 .content-text {
   background-color: lightgray;
   height: auto;
   margin-bottom: 10px;
 }
+
 .content-image {
   background-color: lavender;
   height: 200px;
   margin-bottom: 10px;
 }
-hr {
+
+.content-text-wrapper {
+    margin-left: 10px;
+}
+#hr {
   margin: 0px 10%;
+  color: #E5E5E5;
+  height: 1px;
+  border-bottom: 2px solid #E5E5E5;
 }
 
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
@@ -65,10 +102,16 @@ hr {
   .content-area, hr {
     margin: 10px 5%;
   }
+    #about {
+    margin: 0px;
+    }
 }
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
 @media screen and (max-width: 768px) {
   .content-area, hr {
     margin: 10px 0px;
   }
+    #about {
+    margin: 0px;
+    }
 }
