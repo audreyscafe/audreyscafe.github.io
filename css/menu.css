@@ -1,0 +1,23 @@
+#menu-area {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#menu-desktop-left {
+  height: 500px;
+  background-color: aqua;
+}
+
+#menu-desktop-right {
+  height: 500px;
+  background-color: orange;
+}
+
+/* ADJUSTMENTS FOR XS SCREEN SIZE*/
+@media screen and (max-width: 768px) {
+  #menu-area {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

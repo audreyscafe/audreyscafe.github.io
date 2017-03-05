@@ -10,8 +10,8 @@ function loadGeneralHours() {
   var todayStart = generalHoursStart[day];
   var todayEnd = generalHoursEnd[day];
 
-  document.getElementById("hours").innerHTML += generalHours[day] + "<br>";
-  document.getElementById("hours").innerHTML += currentHour + " " + todayStart+"-"+todayEnd + "<br>";
+  //document.getElementById("hours").innerHTML += generalHours[day] + "<br>";
+  //document.getElementById("hours").innerHTML += currentHour + " " + todayStart+"-"+todayEnd + "<br>";
 
   if (currentHour < todayStart) {
     document.getElementById("hours").innerHTML += "Currently CLOSED!<br>Audrey's will be open today " + generalHours[day];
