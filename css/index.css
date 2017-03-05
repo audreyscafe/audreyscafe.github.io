@@ -93,6 +93,19 @@ section {
 
 }
 
+.content-text {
+  background-color: lightgray;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#hours {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
 $('.multiple-items').slick({
   infinite: true,
   slidesToShow: 3,
