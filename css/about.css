@@ -73,7 +73,6 @@ h1 {
 }
 
 .content-image {
-  background-color: lavender;
   height: 200px;
   margin-bottom: 10px;
 }
@@ -81,7 +80,8 @@ h1 {
 .content-text-wrapper {
     margin-left: 10px;
 }
-#hr {
+
+#hr1 {
   margin: 0px 10%;
   color: #E5E5E5;
   height: 1px;
@@ -93,8 +93,17 @@ h1 {
   .content-area, hr {
     margin: 10px 5%;
   }
-    #about {
+  #about {
     margin: 0px;
+    }
+  .content-image img {
+    width: 99.9%;
+    }
+  #hr2 {
+    margin: 0px 10%;
+    color: #E5E5E5;
+    height: 1px;
+    border-bottom: 2px solid #E5E5E5;
     }
 }
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
@@ -102,7 +111,10 @@ h1 {
   .content-area, hr {
     margin: 10px 0px;
   }
-    #about {
+   #about {
     margin: 0px;
+    }
+   .content-image img{
+    width: 99.9%;
     }
 }
