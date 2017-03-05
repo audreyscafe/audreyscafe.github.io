@@ -14,6 +14,22 @@ nav img {
   height: 40px;
 }
 
+
+
+
+
+header {
+  height: 350px;
+  background-color: blue;
+  text-align: center;
+}
+.short-header {
+  height: 300px;
+  background-color: green;
+}
+
+
+
 #footer {
   background-color: #4990E2;
   padding-left: 15px;
