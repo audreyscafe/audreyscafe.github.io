@@ -21,16 +21,7 @@
 
   - IF YOUR TERMINAL SUDDENLY HAS A BUNCH OF HASHTAGS DOWN THE LEFT SIDE,
     that's probably git making you write a message about the merge. It's using your terminal to display a file it created for you to write your merge message in.
-    Follow these steps:
-    1) Pressing 'j' will move your cursor down 1 line. 
-       Press 'j' until you are at the last line.
-    2) Press 'o'
-       This opens up a new line and puts you into "typing mode"
-       In "typing mode", pressing keys will type into the file, meaning pressing 'j' will write a 'j' instead of moving your cursor down
-    3) Type "merge" (or whatever you want)
-    4) Press the Esc key
-       This exits out of "typing mode"
-    5) Type ":wq"
+       Type ":wq"
        This saves the file and quits out of the file, and now your terminal is your terminal again
 
 4. git push origin master
