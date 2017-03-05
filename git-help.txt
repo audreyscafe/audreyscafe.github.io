@@ -1,0 +1,27 @@
+1. git add -A
+  or git add [name of file]
+2. git commit -m "message here"
+3. git pull
+  - IF THERE ARE MERGE CONFLICTS, resolve them. It will tell you which  
+    files have conflicts. Conflicts look something like
+
+    <<<<< HEAD
+    code that is pushed
+    code that is pushed
+    code that is pushed
+    ============
+    code that you wrote that isn't pushed
+    code that you wrote that isn't pushed
+    code that you wrote that isn't pushed
+    >>>>>>> somerandomnumbersandletters4e2b407f501b68f8588aa8
+
+    It's up to you to determine which of the pushed code and which of your code to keep
+
+    After resolving merge conflicts, you'll have to do git add and git commit again before doing git push
+
+  - IF YOUR TERMINAL SUDDENLY HAS A BUNCH OF HASHTAGS DOWN THE LEFT SIDE,
+    that's probably git making you write a message about the merge. It's using your terminal to display a file it created for you to write your merge message in.
+       Type ":wq"
+       This saves the file and quits out of the file, and now your terminal is your terminal again
+
+4. git push origin master

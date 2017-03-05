@@ -8,15 +8,6 @@ section {
   color: #3C3C3C;
 }
 
-header {
-  height: 350px;
-  background-color: blue;
-  text-align: center;
-}
-.short-header {
-  height: 300px;
-  background-color: green;
-}
 
 main {
   background-color: red;

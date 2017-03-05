@@ -48,11 +48,30 @@ section {
   background-color: aqua;
   height: 300px;
   margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+#deals-label{
+  width: 60%;
+  min-width: 300px;
+  
 }
 #featured-drinks {
   background-color: aquamarine;
   height: 300px;
   margin-bottom: 10px;
+  background-image: url("https://audreyscafe.github.io/images/temp-homepage-header.png");
+  width: 100%;
+  text-align: center;
+ 
+}
+
+#featured-drinks-label{
+
+  width: 60%;
+  min-width: 300px;
+
 }
 /*
 #featured-drinks {
@@ -62,4 +81,54 @@ section {
 #gallery {
   background-color: #96CDCD;
   height: 300px;
+  width: 100%;
+  text-align: center;
+
 }
+
+#gallery-label{
+
+  width: 60%;
+  min-width: 300px;
+
+}
+
+.content-text {
+  background-color: lightgray;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#hours {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+
+
+ $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
+
+
+

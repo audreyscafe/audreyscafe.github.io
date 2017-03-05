@@ -28,8 +28,15 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
 
+    <!-- Carousel -->
+    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
+
     <title>Home - Audrey's Cafe</title>
     <style>
+      .white {
+        background-color: white; /* comment out if you want crazy colors */
+      }
     </style>
   </head>
   <body>
@@ -61,29 +68,32 @@
       <!--<img src="http://placehold.it/350x150" class="header-bg"></img>-->
       <div class="header-bg"> </div>
       <div class="header-text">
-        Today's General Hours: <span id="hours"></span>
+        <span id="hours"></span>
       </div>
     </header>
+    <br><br>
 
-    <main class="container-fluid">
+    <main class="container-fluid white">
 
       <section class="row">
           <div class="col-sm-6">
-              <div id="deals">Deals</div>
+              <div id="deals"><br><br><img id="featured-drinks-label" src="images/SpecialDeals.png"></div>
           </div>
           <div class="col-sm-6">
-              <div id="featured-drinks">Featured Drinks</div>
+              <div id="featured-drinks"><br><br><img id="featured-drinks-label" src="images/featureddrink.png"></div>
           </div>
       </section>
 
       <!--Row with two columns divided in 1:2 ratio-->
       <section class="row">
-          <div class="col-xs-12">
-              <div id="gallery">Gallery
-                <!-- might want a Bootstrap carousel here:
-            http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php -->
-              </div>
+
+          <div class="col-xs-12"> <div id="gallery"> <br><br><img id="gallery-label" src="images/Gallery.png">
+              
+          
+            <div class = multiple-items></div>
           </div>
+          </div>
+         
       </section>
 
       <section class="row" id="footer">
@@ -114,6 +124,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 
+    <!-- Script for carousel -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.fade').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+      });
+    </script>
+    
     <noscript>
       <!-- handle noscript if time allows -->
       Your browser does not support JavaScript!
