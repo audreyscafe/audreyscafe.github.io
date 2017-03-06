@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Karla';
-  src: url(fonts/Karla-Regular.ttf);
+  src: url("../fonts/Karla-Regular.ttf");
 }
 
 body {
