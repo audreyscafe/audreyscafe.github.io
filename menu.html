@@ -27,6 +27,9 @@
 
     <title>Menu - Audrey's Cafe</title>
     <style>
+      .white {
+        background-color: white; /* comment out if you want crazy colors */
+      }
     </style>
   </head>
   <body>
@@ -69,16 +72,80 @@
 
     <main class="container-fluid white">
 
-      <section class="row" id="menu-area">
-          <div class="col-sm-4">
-              <div id="menu-desktop-left">Menu jumpers here</div>
+      <section class="row menu-area white">
+        <div class="col-sm-4" >
+          <div class="menu-desktop-left white">
+            <div class="row">
+                <div class="col-xs-12 col-sm-11">
+                  <div class="menu-jumper-header">Drinks image here</div>
+                </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href="#coffee"><div class="menu-jumper white">Coffee</div></a>
+                </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href="#tea"><div class="menu-jumper white">Tea</div></a>
+                </div>
+            </div>
+          
+            <div class="row">
+                <div class="col-xs-12 col-sm-11">
+                  <div class="menu-jumper-header">Pastries image here</div>
+                </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href=""><div class="menu-jumper white">Savory</div></a>
+                </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href=""><div class="menu-jumper white">Sweet</div></a>
+                </div>
+            </div>
           </div>
-          <div class="col-sm-8">
-              <div id="menu-desktop-right">Menu here</div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7 hidden-xs menu-desktop-right white">
+          <div class="row">
+              <div class="col-xs-12">
+
+                <div class="row menu-section white" id="coffee">
+                  <span class="menu-section-title">Coffee</span>
+                  <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Americano</div>
+                    <div class="col-xs-6 menu-item-price white">$2.50</div>
+                    Brewed espresso and hot water.
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Name</div>
+                    <div class="col-xs-6 menu-item-price white">Price</div>
+                    Description
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Name</div>
+                    <div class="col-xs-6 menu-item-price white">Price</div>
+                    Description
+                  </div>
+                </div>
+
+                <div class="row menu-section white" id="tea">
+                  <span class="menu-section-title">Tea</span>
+                  <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Name</div>
+                    <div class="col-xs-6 menu-item-price white">Price</div>
+                    Description
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Name</div>
+                    <div class="col-xs-6 menu-item-price white">Price</div>
+                    Description
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Name</div>
+                    <div class="col-xs-6 menu-item-price white">Price</div>
+                    Description
+                  </div>
+                </div>
+              </div>
           </div>
+        </div>
       </section>
-
-
 
       <section class="row" id="footer">
         <div class="col-xs-6" id="footer-left">

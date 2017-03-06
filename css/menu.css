@@ -1,23 +1,94 @@
-#menu-area {
-  width: 80%;
+.menu-area {
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-}
-#menu-desktop-left {
-  height: 500px;
-  background-color: aqua;
+  background-color: red;
 }
 
-#menu-desktop-right {
-  height: 500px;
+
+/* left side*/
+.menu-desktop-left {
+  height: auto;
+  background-color: aqua;
+  /*margin-right: 30px; */
+}
+.menu-jumper-header {
+  height: 60px;
+  background-color: lavender;
+  margin-top: 10px;
+  border-bottom: 2px solid lightgray;
+}
+.menu-jumper {
+  height: 60px;
+  background-color: azure;
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+
+/* right side*/
+.menu-desktop-right {
+  height: auto;
   background-color: orange;
+}
+.menu-section {
+  height: auto;
+  background-color: yellow;
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 2px solid lightgray;
+}
+.menu-section-title {
+  height: auto;
+}
+.menu-item {
+  background-color: peachpuff;
+  height: auto;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu-item-name {
+  background-color: pink;
+  height: auto;
+  padding: 0px;
+}
+.menu-item-price {
+  background-color: lightyellow;
+  height: auto;
+  padding: 0px;
+  text-align: right;
+}
+
+
+/* ADJUSTMENTS FOR MD SCREEN SIZE*/
+@media screen and (max-width: 1200px) {
+  .menu-area {
+    width: 80%;
+  }
+}
+
+
+/* ADJUSTMENTS FOR SM SCREEN SIZE*/
+@media screen and (max-width: 992px) {
+  .menu-area {
+    width: 90%;
+  }
 }
 
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
 @media screen and (max-width: 768px) {
-  #menu-area {
+  .menu-area {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    padding: 0px;
+  }
+  .menu-desktop-left {
+    margin-right: 0px;
+  }
+  .menu-desktop-left .col-xs-12 {
+    padding: 0px;
   }
 }

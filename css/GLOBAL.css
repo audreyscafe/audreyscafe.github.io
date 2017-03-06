@@ -4,8 +4,13 @@
  * Use page-specific css files for page-specific style changes.
  */
 
+@font-face {
+  font-family: 'Karla';
+  src: url(fonts/Karla-Regular.ttf);
+}
+
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Karla', Arial, sans-serif;
 }
 
 nav img {
@@ -26,6 +31,7 @@ header {
 .short-header {
   height: 300px;
   background-color: green;
+  margin-bottom: 50px;
 }
 
 
@@ -33,6 +39,7 @@ header {
 #footer {
   background-color: #4990E2;
   padding-left: 15px;
+  margin-top: 50px;
 }
 
 #footer-left {
