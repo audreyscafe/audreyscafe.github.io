@@ -1,6 +1,19 @@
-.submissionfield {
-	
-	width: 450px;
-	height: 200px;
+/*
+ * This is a page-specific css file for contact.html
+ */
 
+
+.submissionfield {
+	width: 700px;
+	height: 100px;
+}
+.info {
+	width: 700px;
+
+}
+#hr1 {
+  margin: 0px 15%;
+  color: #E5E5E5;
+  height: 1px;
+  border-bottom: 2px solid #E5E5E5;
 }

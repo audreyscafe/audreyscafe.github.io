@@ -60,30 +60,47 @@
     <main class="container-fluid">
         <section>
             <div class="col-xs-12 text-center">
-                <h1><center>Questions, concerns, or catering inquiries? Send us a message!</center></h1>
+                <h1><center>Questions, concerns, or catering inquiries?</h1>
+                <h1>Send us a message!</center></h1>
+                <br>
+                <div id="hr1"></div>
+                <br>
             </div>
         </section>
+
 
         <section class="row content-area">
+          <form action="">
             <div class="col-xs-12 text-center">
                 <p><b>Name:<b></p>
-                    <form action=""> 
-                        <input type="text" name="" value=""><br>
-
-                    </form>
-                <p><b>Email:<b></p>
-                    <form action=""> 
-                        <input type="text" name="" value=""><br>
-                    </form>
-                <p><b>Inquiry/Feedback:<b></p>
-                    <form action=""> 
-                        <input class="submissionfield" type="textarea" name="" value=""><br><br>
-                        <input type="submit" value="Submit" onclick="return confirm('Done?')" />
-                    </form><br>
+                  <textarea class="info" type="textarea"></textarea><br><br>
             </div>
+            <div class="col-xs-12 text-center">
+                <p><b>Email:<b></p>
+                  <textarea class="info" type="textarea"></textarea><br><br>
+            </div>
+            <div class="col-xs-12 text-center">
+                <p><b>Inquiry/Feedback:<b></p>
+                  <textarea class="submissionfield" type="textarea"></textarea><br><br>
+            </div>
+            <div class="col-xs-12 text-center">
+              <input type="submit" value="Submit" onclick="return confirm('Done?')">
+            </div>
+          </form>
         </section>
+    </main>
 
-        <section class="row" id="footer">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <noscript>
+      <!-- handle noscript if time allows -->
+      Your browser does not support JavaScript!
+    </noscript>
+    </body>
+
+    <footer>
+      <section class="row" id="footer">
         <div class="col-xs-6" id="footer-left">
           <h2>HOURS OF OPERATION</h2>
           <h3>Mon-Thurs: 8am-11pm
@@ -96,6 +113,7 @@
           <h3>Geisel Library 2nd Floor East Wing</h3>
           <h2>PHONE</h2>
           <h3>(858) 534-2230</h3>
+          <br>
         </div>
         <!--
         <div class="social">
@@ -105,17 +123,6 @@
         </div>
         -->
       </section>
+    </footer>
 
-    </main>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <noscript>
-      <!-- handle noscript if time allows -->
-      Your browser does not support JavaScript!
-    </noscript>
-
-
-    </body>
 </html>
