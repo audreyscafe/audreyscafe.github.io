@@ -64,11 +64,12 @@ section {
   min-width: 300px;
   
 }
+/*need to fix image to be responsive, currently it's repeating*/
 #featured-drinks {
   background-color: aquamarine;
+  background-image: url("../images/strawberrymaking.jpg");
   height: 300px;
   margin-bottom: 10px;
-  background-image: url("../images/strawberrymaking.jpg");
   width: 100%;
   font-size: 20px;
   font-weight: bold;
