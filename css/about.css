@@ -9,6 +9,10 @@ section {
 }
 
 
+.short-header {
+  /* background-image: url("../images/seating.jpg"); */
+}
+
 main {
   background-color: red;
 }
@@ -117,4 +121,19 @@ h1 {
    .content-image img{
     width: 99.9%;
     }
+  #header-img {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+
+#test {
+  opacity: 0.2;
+  position: absolute;
+  top: 500px;
+  right: 0px;
+}
+#header-img {
+  width: 100%;
 }

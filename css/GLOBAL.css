@@ -24,16 +24,23 @@ nav img {
 
 
 header {
-  height: 350px;
+  height: 400px;
   background-color: blue;
   text-align: center;
 }
 .short-header {
-  height: 300px;
+  height: auto;
   background-color: green;
   margin-bottom: 50px;
+
 }
 
+.short-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
 
 
 #footer {

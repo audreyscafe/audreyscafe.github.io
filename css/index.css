@@ -2,6 +2,11 @@
  * This is a page-specific css file for index.html
  */
 
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
 main {
   background-color: red;
 }
@@ -50,6 +55,8 @@ section {
 #deals {
   background-color: aqua;
   background-image: url("../images/punchcard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 300px;
   margin-bottom: 10px;
   text-align: center;
@@ -68,6 +75,8 @@ section {
 #featured-drinks {
   background-color: aquamarine;
   background-image: url("../images/strawberrymaking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 300px;
   margin-bottom: 10px;
   width: 100%;
@@ -81,7 +90,6 @@ section {
 
   width: 60%;
   min-width: 300px;
-
 
 }
 /*
