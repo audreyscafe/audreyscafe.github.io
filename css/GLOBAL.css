@@ -70,3 +70,10 @@ h3 {
   color: white;
   font-size: 1.25em;
 }
+
+/* ADJUSTMENTS FOR XS SCREEN SIZE*/
+@media screen and (max-width: 768px) {
+  .short-header {
+    margin-bottom: 20px;
+  }
+}
