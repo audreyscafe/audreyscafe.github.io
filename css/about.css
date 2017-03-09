@@ -8,21 +8,17 @@ section {
   color: #3C3C3C;
 }
 
-
-main {
-  background-color: red;
-}
-
 h1 {
   height: 50px;
   width: 100%;
   text-align: center;
 }
+
 .content-area {
   height: auto;
   background-color: orange;
   margin: 10px 10%;
-  padding: 0px;
+  padding-bottom: 0px;
 }
 
 #ourstory{

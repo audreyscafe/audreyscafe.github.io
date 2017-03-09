@@ -110,23 +110,44 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
     <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
 
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.fade').slick({
-            dots: true,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear'
-        });
-      });
-    </script>
     
     <noscript>
       <!-- handle noscript if time allows -->
       Your browser does not support JavaScript!
     </noscript>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.fade').slick({
+            dots: true,
+            arrows: true,
+            swipe: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+            responsive: [{
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                infinite: true
+              }
+            }, {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                dots: true
+              }
+
+            }, {
+              breakpoint: 300,
+              settings: "unslick" // destroys slick
+            }]
+        });
+      });
+    </script>
   </body>
+
+      
   <footer>
       <section class="row" id="footer">
         <div class="col-xs-6" id="footer-left">
