@@ -91,14 +91,15 @@ header {
 */
 #gallery {
   background-color: #96CDCD;
-  height: 300px;
   width: 100%;
+  height: 150%;
   text-align: center;
 
 }
 
 #gallery-label{
-
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 20%;
   min-width: 200px;
 
@@ -116,30 +117,5 @@ header {
   font-weight: bold;
 
 }
-
-$('.multiple-items').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
-
-
- $('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-});
-
 
 
