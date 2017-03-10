@@ -65,7 +65,7 @@ h1 {
 
 .content-image-container {
   background-color: khaki;
-  height: 100%;
+  /*height: auto; */
   min-width: 100px;
   padding: 30px;
 }
@@ -130,7 +130,4 @@ h1 {
   position: absolute;
   top: 500px;
   right: 0px;
-}
-#header-img {
-  width: 100%;
 }
