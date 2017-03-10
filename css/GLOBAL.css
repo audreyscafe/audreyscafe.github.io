@@ -50,6 +50,10 @@ header {
 
 }
 
+.header-img {
+  width: 100%;
+}
+
 
 #footer {
   background-color: #4990E2;

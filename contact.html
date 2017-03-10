@@ -18,6 +18,9 @@
 
     <title>Contact - Audrey's Cafe</title>
     <style>
+      .white {
+        background-color: white; /* comment out if you want crazy colors */
+      }
     </style>
   </head>
   <body>
@@ -52,14 +55,17 @@
     </nav>
 
     <header class="short-header">
-      <!--<img src="http://placehold.it/350x150" class="header-bg"></img>-->
-      <div class="short-header-bg"></div>
-      <div class="short-header-text"><img src="images/contact.png"/></div>
+      <div class="short-header-bg row">
+        <div class="col-xs-12">
+          <img class="header-img" src="images/contact.png" alt="Contact"/>
+        </div>
+      </div>
+      <div class="short-header-text"></div>
     </header>
 
-    <main class="container-fluid">
-        <section>
-            <div class="col-xs-12 text-center">
+    <main class="container-fluid white">
+        <section class="white">
+            <div class="col-xs-12 text-center white">
                 <h1><center>Questions, concerns, or catering inquiries?</h1>
                 <h1>Send us a message!</center></h1>
                 <br>
@@ -69,21 +75,21 @@
         </section>
 
 
-        <section class="row content-area">
+        <section class="row content-area white">
           <form action="">
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 text-center white">
                 <p><b>Name:<b></p>
-                  <textarea class="info" type="textarea"></textarea><br><br>
+                  <input class="info" type="text"></textarea><br><br>
             </div>
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 text-center white">
                 <p><b>Email:<b></p>
-                  <textarea class="info" type="textarea"></textarea><br><br>
+                  <input class="info" type="text"></textarea><br><br>
             </div>
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 text-center white">
                 <p><b>Inquiry/Feedback:<b></p>
                   <textarea class="submissionfield" type="textarea"></textarea><br><br>
             </div>
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 text-center white">
               <input type="submit" value="Submit" onclick="return confirm('Done?')">
             </div>
           </form>

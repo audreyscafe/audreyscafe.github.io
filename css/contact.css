@@ -12,10 +12,33 @@
 	height: 30px;
 
 }
+.submissionfield, .info {
+  width: 50%;
+}
 #hr1 {
   margin: 0px 11.75%;
   color: #E5E5E5;
   height: 1px;
   border-bottom: 2px solid #E5E5E5;
+
+}
+
+main {
+  background-color: red;
+}
+
+section {
+  background-color: blue;
+}
+
+.text-center {
+  background-color: yellow;
+}
+
+/* ADJUSTMENTS FOR XS SCREEN SIZE*/
+@media screen and (max-width: 768px) {
+  .submissionfield, .info {
+    width: 90%;
+  }
 
 }
