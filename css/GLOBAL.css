@@ -21,11 +21,15 @@ nav img {
 
 .navbar-default {
   margin-bottom: 0px;
-
 }
 
+.social-media {
+  height: 30px;
+}
 
-
+#icons {
+  
+}
 
 header {
   height: 400px;
