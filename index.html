@@ -29,8 +29,8 @@
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
 
     <!-- Carousel -->
-    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="ism/css/my-slider.css"/>
+
 
     <title>Home - Audrey's Cafe</title>
     <style>
@@ -94,16 +94,28 @@
       </section>
 
       <!--Row with two columns divided in 1:2 ratio-->
+      
+      <!--GALLERY-->
       <section class="row">
           <div class="col-xs-12" id="gallery">
             <div><center><img id="gallery-label" src="images/Gallery.png"></center></div>
-            <div class="fade"> 
-              <div><img src="images/beans.jpg"></div>
-              <div><img src="images/beans.jpg"></div>
-              <div><img src="images/beans.jpg"></div>
-            </div>
+              <div class="ism-slider" id="my-slider">
+                <ol>
+                  <li>
+                    <img src="ism/image/slides/above-736879_1280.jpg">
+                    <div class="ism-caption ism-caption-0">My slide caption text</div>
+                  </li>
+                  <li>
+                    <img src="ism/image/slides/beautiful-701678_1280.jpg">
+                    <div class="ism-caption ism-caption-0">My slide caption text</div>
+                  </li>
+                  <li>
+                    <img src="ism/image/slides/br_2225.jpg">
+                    <div class="ism-caption ism-caption-0">My slide caption text</div>
+                  </li>
+                </ol>
+              </div>
           </div>
-         
       </section>
 
     </main>
@@ -112,29 +124,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 
-    <!-- Script for carousel -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
-    <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
+    <!-- Script for gallery -->
+    <script src="ism/js/ism-2.2.min.js"></script>
 
     
     <noscript>
       <!-- handle noscript if time allows -->
       Your browser does not support JavaScript!
     </noscript>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.fade').slick({
-            dots: true,
-            arrows: true,
-            swipe: true,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear'
-        });
-      });
-    </script>
+
   </body>
 
       
