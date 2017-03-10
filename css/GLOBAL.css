@@ -19,27 +19,39 @@ nav img {
   height: 40px;
 }
 
+.navbar-default {
+  margin-bottom: 0px;
+
+}
 
 
 
 
 header {
-  height: 350px;
+  height: 400px;
   background-color: blue;
   text-align: center;
 }
 .short-header {
-  height: 300px;
+  height: auto;
   background-color: green;
   margin-bottom: 50px;
+
 }
 
+.short-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
 
 
 #footer {
   background-color: #4990E2;
-  padding-left: 15px;
-  margin-top: 50px;
+  padding-left: 30px;
+  margin-top: 30px;
+  padding-bottom: 0px;
 }
 
 #footer-left {
@@ -62,4 +74,11 @@ h2 {
 h3 {
   color: white;
   font-size: 1.25em;
+}
+
+/* ADJUSTMENTS FOR XS SCREEN SIZE*/
+@media screen and (max-width: 768px) {
+  .short-header {
+    margin-bottom: 20px;
+  }
 }

@@ -3,7 +3,6 @@
  */
 
 section {
-  margin-bottom: 10px;
   background-color: aqua;
   color: #3C3C3C;
 }
@@ -113,4 +112,16 @@ h1 {
    .content-image img{
     width: 99.9%;
     }
+
+}
+
+
+#test {
+  opacity: 0.2;
+  position: absolute;
+  top: 500px;
+  right: 0px;
+}
+#header-img {
+  width: 100%;
 }

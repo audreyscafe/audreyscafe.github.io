@@ -4,16 +4,18 @@
 
 
 .submissionfield {
-	width: 700px;
-	height: 100px;
+	width: 75%;
+	height: 200px;
 }
 .info {
-	width: 700px;
+	width: 75%;
+	height: 30px;
 
 }
 #hr1 {
-  margin: 0px 15%;
+  margin: 0px 11.75%;
   color: #E5E5E5;
   height: 1px;
   border-bottom: 2px solid #E5E5E5;
+
 }

@@ -14,9 +14,11 @@
 }
 .menu-jumper-header {
   height: 60px;
-  background-color: lavender;
   margin-top: 10px;
-  border-bottom: 2px solid lightgray;
+  border-bottom: 2px solid #DFDFDF;
+}
+.menu-jumper-header img {
+  height: 80%;
 }
 .menu-jumper {
   height: 60px;
@@ -37,10 +39,12 @@
   background-color: yellow;
   margin-bottom: 20px;
   padding: 30px;
-  border: 2px solid lightgray;
+  border: 2px solid #DFDFDF;
 }
 .menu-section-title {
   height: auto;
+  font-size: 1.63em;
+  font-weight: 700;
 }
 .menu-item {
   background-color: peachpuff;
@@ -53,12 +57,15 @@
   background-color: pink;
   height: auto;
   padding: 0px;
+  font-size: 1.05em;
+  font-weight: 700;
 }
 .menu-item-price {
   background-color: lightyellow;
   height: auto;
   padding: 0px;
   text-align: right;
+  font-weight: 700;
 }
 
 

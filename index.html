@@ -71,6 +71,8 @@
       <div class="header-text">
         <span id="hours"></span>
 
+        <div id="hours">Geisel 2<sup>nd</sup> Floor East</div>
+
       </div>
     </header>
     <br><br>
@@ -78,11 +80,16 @@
     <main class="container-fluid white">
 
       <section class="row">
+
           <div class="col-sm-6">
-              <div id="deals"><br><br><img id="featured-drinks-label" src="images/SpecialDeals.png"><br><br><br><br><br><div>Earn 10 stamps for a prize</div></div> <br><br>
+            <center><img id="featured-drinks-label" src="images/SpecialDeals.png"></center><br>
+            <div id="deals"><br><div>Earn 10 stamps for a prize</div><br><br></div> <br><br>
           </div>
+            
+     
           <div class="col-sm-6">
-              <div id="featured-drinks"><br><br><img id="featured-drinks-label" src="images/featureddrink.png"><br><br><br><br><br><div>Chocolate Dipped Strawberry Mocha</div></div> <br><br>
+            <center><img id="featured-drinks-label" src="images/featureddrink.png"></center><br>
+            <div id="featured-drinks"><br><div>Chocolate Dipped Strawberry Mocha</div><br><br></div> <br><br>
           </div>
       </section>
 
@@ -125,23 +132,6 @@
             speed: 500,
             fade: true,
             cssEase: 'linear'
-            responsive: [{
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                infinite: true
-              }
-            }, {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                dots: true
-              }
-
-            }, {
-              breakpoint: 300,
-              settings: "unslick" // destroys slick
-            }]
         });
       });
     </script>
