@@ -19,6 +19,10 @@ nav img {
   height: 40px;
 }
 
+.navbar-default {
+  margin-bottom: 0px;
+
+}
 
 
 
@@ -49,8 +53,9 @@ header {
 
 #footer {
   background-color: #4990E2;
-  padding-left: 15px;
-  margin-top: 50px;
+  padding-left: 30px;
+  margin-top: 30px;
+  padding-bottom: 0px;
 }
 
 #footer-left {

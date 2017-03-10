@@ -89,7 +89,6 @@
      
           <div class="col-sm-6">
             <center><img id="featured-drinks-label" src="images/featureddrink.png"></center><br>
-
             <div id="featured-drinks"><br><div>Chocolate Dipped Strawberry Mocha</div><br><br></div> <br><br>
           </div>
       </section>
@@ -118,10 +117,17 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
     <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
 
+    
+    <noscript>
+      <!-- handle noscript if time allows -->
+      Your browser does not support JavaScript!
+    </noscript>
     <script type="text/javascript">
       $(document).ready(function(){
         $('.fade').slick({
             dots: true,
+            arrows: true,
+            swipe: true,
             infinite: true,
             speed: 500,
             fade: true,
@@ -129,12 +135,9 @@
         });
       });
     </script>
-    
-    <noscript>
-      <!-- handle noscript if time allows -->
-      Your browser does not support JavaScript!
-    </noscript>
   </body>
+
+      
   <footer>
       <section class="row" id="footer">
         <div class="col-xs-6" id="footer-left">

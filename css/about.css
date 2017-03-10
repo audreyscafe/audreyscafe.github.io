@@ -3,18 +3,8 @@
  */
 
 section {
-  margin-bottom: 10px;
   background-color: aqua;
   color: #3C3C3C;
-}
-
-
-.short-header {
-  /* background-image: url("../images/seating.jpg"); */
-}
-
-main {
-  background-color: red;
 }
 
 h1 {
@@ -22,11 +12,12 @@ h1 {
   width: 100%;
   text-align: center;
 }
+
 .content-area {
   height: auto;
   background-color: orange;
   margin: 10px 10%;
-  padding: 0px;
+  padding-bottom: 0px;
 }
 
 #ourstory{
