@@ -10,6 +10,10 @@ html {
 main {
   background-color: red;
 }
+.container-fluid {
+  padding: 0px;
+  padding-bottom: 20px;
+}
 header {
   height: 350px;
   background-color: blue;
@@ -89,7 +93,7 @@ header {
   background-color: #ADEAEA;
 }
 */
-#gallery {
+.gallery {
   background-color: #96CDCD;
   width: 100%;
   height: 150%;
@@ -118,4 +122,100 @@ header {
 
 }
 
+/* 
+ * N E W 
+ * L A Y O U T
+ */
+.content-area {
+  height: auto;
+  background-color: orange;
+  margin: 0px;
+}
 
+.big-row {
+  padding-right: 15px;
+}
+
+.small-row {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.content-text-and-image {
+  background-color: turquoise;
+  margin: 0px;
+  /*
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  height: auto;
+  */
+}
+.small-row .content-text-and-image {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.content-image-container {
+  height: 400px;
+}
+.content-text-container {
+  height: 385px;
+}
+.content-image-container {
+  background-color: khaki;
+  min-width: 100px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.content-image {
+  height: auto;
+}
+.content-image img {
+  width: 99.9%;
+}
+
+.content-text-container {
+  background-color: gold;
+  /*height: auto; */
+  padding: 30px;
+  box-shadow: 15px 15px #F095BA;
+  border: 2px solid black;
+}
+
+.small-row-left {
+  padding: 0px;
+}
+.small-row .content-text-container {
+  /*margin-right: 15px;*/
+  width: 97%;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.content-text {
+  background-color: lightgray;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.content-text-wrapper {
+  margin-left: 10px;
+}
+
+/* ADJUSTMENTS FOR XS SCREEN SIZE*/
+@media screen and (max-width: 768px) {
+  .content-image-container {
+    height: auto;
+  }
+  .big-row {
+    padding-left: 15px;
+  }
+}

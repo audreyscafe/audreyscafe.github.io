@@ -68,13 +68,17 @@ h1 {
 }
 
 .content-image {
-  height: 200px;
+  height: auto;
   margin-bottom: 10px;
+}
+.content-image img {
+  width: 99.9%;
 }
 
 .content-text-wrapper {
     margin-left: 10px;
 }
+
 
 #hr1 {
   margin: 0px 10%;
@@ -83,6 +87,7 @@ h1 {
   border-bottom: 2px solid #E5E5E5;
 }
 
+
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
   .content-area, hr {
@@ -90,9 +95,6 @@ h1 {
   }
   #about {
     margin: 0px;
-    }
-  .content-image img {
-    width: 99.9%;
     }
   #hr2 {
     margin: 0px 10%;
@@ -108,9 +110,6 @@ h1 {
   }
    #about {
     margin: 0px;
-    }
-   .content-image img{
-    width: 99.9%;
     }
 
 }
