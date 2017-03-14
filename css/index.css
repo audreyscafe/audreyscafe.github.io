@@ -115,7 +115,7 @@ header {
   margin-bottom: 10px;
 }
 
-#hours {
+#hours, #hours-js {
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -130,10 +130,14 @@ header {
   height: auto;
   background-color: orange;
   margin: 0px;
+  padding: 0px;
 }
 
 .big-row {
   padding-right: 15px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .small-row {
@@ -162,10 +166,10 @@ header {
 }
 
 .content-image-container {
-  height: 400px;
+  height: 375px;
 }
 .content-text-container {
-  height: 385px;
+  height: 360px;
 }
 .content-image-container {
   background-color: khaki;
@@ -176,9 +180,12 @@ header {
 
 .content-image {
   height: auto;
+  max-height: 360px;
+  overflow: hidden;
 }
 .content-image img {
   width: 99.9%;
+  /*height: 99.9%; */
 }
 
 .content-text-container {
@@ -210,12 +217,23 @@ header {
   margin-left: 10px;
 }
 
+/* ADJUSTMENTS FOR SM SCREEN SIZE*/
+@media screen and (max-width: 992px) {
+  main {
+    background-color: yellow;
+  }
+}
+
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
 @media screen and (max-width: 768px) {
+  main {
+    background-color: green;
+  }
   .content-image-container {
     height: auto;
   }
-  .big-row {
+  .big-row, .small-row {
+    width: 100%;
     padding-left: 15px;
   }
 }

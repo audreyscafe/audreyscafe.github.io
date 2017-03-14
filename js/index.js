@@ -22,7 +22,6 @@ function loadGeneralHours() {
   else {
     document.getElementById("hours-js").innerHTML += "Open today " + generalHours[day];
   }
-  console.log("DONE");
 }
 
 window.onload=loadGeneralHours();
