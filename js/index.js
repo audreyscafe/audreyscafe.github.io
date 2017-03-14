@@ -14,14 +14,15 @@ function loadGeneralHours() {
   //document.getElementById("hours").innerHTML += currentHour + " " + todayStart+"-"+todayEnd + "<br>";
 
   if (currentHour < todayStart) {
-    document.getElementById("hours").innerHTML += "Currently CLOSED!<br>Audrey's will be open today " + generalHours[day];
+    document.getElementById("hours-js").innerHTML += "Currently CLOSED!<br>Audrey's will be open today " + generalHours[day];
   }
   else if (currentHour >= todayEnd) {
-    document.getElementById("hours").innerHTML += "Currently CLOSED!<br>Audrey's will be open tomorrow " + generalHours[day];
+    document.getElementById("hours-js").innerHTML += "Currently CLOSED!<br>Audrey's will be open tomorrow " + generalHours[day];
   }
   else {
-    document.getElementById("hours").innerHTML += "Open today " + generalHours[day];
+    document.getElementById("hours-js").innerHTML += "Open today " + generalHours[day];
   }
+  console.log("DONE");
 }
 
-window.onload=loadGeneralHours;
+window.onload=loadGeneralHours();
