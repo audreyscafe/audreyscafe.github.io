@@ -76,21 +76,21 @@
 
 
         <section class="row content-area white">
-          <form action="">
+          <form action="mail.php">
             <div class="col-xs-12 text-center white">
                 <p><b>Name:<b></p>
-                  <input class="info" type="text"></textarea><br><br>
+                  <input class="info" type="text" name="name"></textarea><br><br>
             </div>
             <div class="col-xs-12 text-center white">
-                <p><b>Email:<b></p>
-                  <input class="info" type="text"></textarea><br><br>
+                <p><b>Subject:<b></p>
+                  <input class="info" type="text" name="subject"></textarea><br><br>
             </div>
             <div class="col-xs-12 text-center white">
                 <p><b>Inquiry/Feedback:<b></p>
-                  <textarea class="submissionfield" type="textarea"></textarea><br><br>
+                  <textarea class="submissionfield" type="textarea" name="inquiry"></textarea><br><br>
             </div>
             <div class="col-xs-12 text-center white">
-              <input type="submit" value="Submit" onclick="return confirm('Done?')">
+              <a href="mailto:one@example.com?" type="submit" value="Send mail" onclick="return confirm('Done?')">
             </div>
           </form>
         </section>
