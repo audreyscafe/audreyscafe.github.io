@@ -34,7 +34,7 @@ header {
 .header-bg {
   position: absolute;
   z-index: 5;
-  background-image: url("../images/laptop.jpg"); 
+  background-image: url("../images/home.png"); 
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
