@@ -79,7 +79,7 @@
     <main class="container-fluid white">
 
       <section class="row menu-area white">
-        <div class="col-sm-4" >
+        <div class="col-sm-4" class="fixed-menu">
           <div class="menu-desktop-left white">
             <div class="row">
                 <div class="col-xs-12 col-sm-11">
@@ -111,6 +111,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-sm-1"></div>
         <div class="col-sm-7 hidden-xs menu-desktop-right white">
           <div class="row">
@@ -222,11 +223,11 @@
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
-              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                <h4 class="panel-title">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                   Coffee
-                </h4>
-              </a>
+                </a>
+              </h4>
           </div>
           <div id="collapseOne" class="panel-collapse collapse in">
               <div class="panel-body">
@@ -251,11 +252,11 @@
 
         <div class="panel panel-default">
           <div class="panel-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-              <h4 class="panel-title">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                 Tea
-              </h4>
-            </a>
+              </a>
+            </h4>
           </div>
           <div id="collapseTwo" class="panel-collapse collapse in">
             <div class="panel-body">
@@ -266,13 +267,28 @@
 
         <div class="panel panel-default">
           <div class="panel-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-              <h4 class="panel-title">
-                Savory
-              </h4>
-            </a>
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Bottled
+              </a>
+            </h4>
           </div>
           <div id="collapseThree" class="panel-collapse collapse in">
+            <div class="panel-body">
+              copy from desktop version
+            </div>
+          </div>
+        </div>        
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Savory
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse in">
             <div class="panel-body">
               copy from desktop version
             </div>
@@ -281,13 +297,13 @@
 
         <div class="panel panel-default">
           <div class="panel-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-              <h4 class="panel-title">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                 Sweet
-              </h4>
-            </a>
+              </a>
+            </h4>
           </div>
-          <div id="collapseFour" class="panel-collapse collapse in">
+          <div id="collapseFive" class="panel-collapse collapse in">
             <div class="panel-body">
               copy from desktop version
             </div>
@@ -299,6 +315,19 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      var elementPosition = $('.fixed-menu').offset();
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > elementPosition.top) {
+          $('.fixed-menu').css('position', 'fixed').css('top', '0');
+        } else {
+          $('.fixed-menu').css('position', 'static');
+        }
+      });
+    </script>
 
     <noscript>
       <!-- handle noscript if time allows -->

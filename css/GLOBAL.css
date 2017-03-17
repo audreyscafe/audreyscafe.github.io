@@ -19,21 +19,18 @@ nav img {
   height: 40px;
 }
 
-#hr1 {
-  margin: 0px 11.75%;
-  color: #E5E5E5;
-  height: 1px;
-  border-bottom: 2px solid #E5E5E5;
-
+.navbar {
+  background-color: white;
 }
 
 .navbar-default {
   margin-bottom: 0px;
+
 }
 
 .social-media {
   height: 95px;
-  background-color: beige;
+  background-color: slategrey;
   padding: 10px;
 }
 
