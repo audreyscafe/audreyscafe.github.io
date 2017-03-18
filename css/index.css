@@ -22,13 +22,19 @@ header {
 
 #hours-and-location {
   background-color: #E0EEEE;
-
-
 }
+
+#hr1{
+  margin: 0px 7.5%;
+  color: #E5E5E5;
+  height: 1px;
+  border-bottom: 2px solid #E5E5E5;
+}
+
 .header-bg {
   position: absolute;
   z-index: 5;
-  background-image: url("../images/laptop.jpg"); 
+  background-image: url("../images/home.png"); 
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;

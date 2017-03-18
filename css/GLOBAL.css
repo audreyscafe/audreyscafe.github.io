@@ -19,13 +19,18 @@ nav img {
   height: 40px;
 }
 
+.navbar {
+  background-color: white;
+}
+
 .navbar-default {
   margin-bottom: 0px;
+
 }
 
 .social-media {
   height: 95px;
-  background-color: beige;
+  background-color: slategrey;
   padding: 10px;
 }
 

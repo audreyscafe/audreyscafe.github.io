@@ -5,6 +5,10 @@
   background-color: red;
 }
 
+.col-sm-4 {
+  position: ;
+
+}
 
 /* left side*/
 .menu-desktop-left {
@@ -71,6 +75,20 @@
   padding: 0px;
   text-align: right;
   font-weight: 700;
+}
+
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;  
 }
 
 
