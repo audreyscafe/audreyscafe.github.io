@@ -5,14 +5,17 @@
   background-color: red;
 }
 
-.col-sm-4 {
-  position: ;
+/* left side*/
+
+.fixed-menu {
+  position: fixed;
 
 }
-
-/* left side*/
 .menu-desktop-left {
+  float: left;
+  margin-top: 0;
   height: auto;
+  width: 145%;
   background-color: aqua;
   /*margin-right: 30px; */
 }
@@ -38,11 +41,15 @@
 
 
 /* right side*/
+
+
 .menu-desktop-right {
-  margin-top: 50px;
+  float: right;
+  margin-top: 60px;
   height: auto;
   background-color: orange;
 }
+
 .menu-section {
   height: auto;
   background-color: yellow;
