@@ -22,6 +22,7 @@
         background-color: white; /* comment out if you want crazy colors */
       }
     </style>
+      
   </head>
   <body>
 
@@ -64,39 +65,52 @@
     </header>
 
     <main class="container-fluid white">
-      <section class="white">
-          <div class="col-xs-12 content-image-container white">
+ <section class="row content-area big-row white">
+        <div class="content-text-and-image white">
+          </div>
+          <div class="col-sm-5 content-text-container white">
             <div class="content-text white">
               <br>
+              <img id="contactus" src="images/contact%20us.png" alt="Contact Us"/>
                 <br>
-        <div class="content-text-wrapper">
-            <p></p><img id="contactus" src="images/contact%20us.png" alt="Contact Us"/></p>             <br>
-                <p>Feel free to message us about any questions, concerns, or catering inquiries! </p></div>
+                <br>
+                  <div class="content-text-wrapper"> Feel free to message us about any questions, concerns, or catering inquiries! </div>
+                <br>
             </div>
           </div>
       </section>
+        
+        <br>
+        <br>
+        
+        <div class="content-text-wrapper">You can also contact us via email at audreys@ucsd.edu or by phone at (858) 534-2230. </div>
 
-
+        <br>
+        <br>
         <section class="row content-area white">
           <form action="mail.php">
-            <div class="col-xs-12 text-center white">
-                <p><b>Name:<b></p>
-                  <input class="info" type="text" name="name"></textarea><br><br>
+            <div class="col-sm-4 col-sm-offset-2 text-center white">
+                  <input class="info" placeholder="Name" type="text" name="name"></textarea><br><br>
+            </div>
+            <div class="col-sm-4 text-center white">
+                  <input class="info" placeholder="E-Mail" type="text" name="subject"></textarea><br><br>
             </div>
             <div class="col-xs-12 text-center white">
-                <p><b>Subject:<b></p>
-                  <input class="info" type="text" name="subject"></textarea><br><br>
+                  <textarea class="submissionfield" placeholder="Message" type="textarea" name="inquiry"></textarea><br><br><br>
             </div>
-            <div class="col-xs-12 text-center white">
-                <p><b>Inquiry/Feedback:<b></p>
-                  <textarea class="submissionfield" type="textarea" name="inquiry"></textarea><br><br>
-            </div>
-            <div class="col-xs-12 text-center white">
-              <a href="mailto:one@example.com?" type="submit" value="Send mail" onclick="return confirm('Done?')">
-            </div>
+            <div class="col-xs-5 text-center">
+              <a href="mailto:audreys@ucsd.edu?" type="submit" value="Send mail" onclick="return confirm('Thanks for your message!')"> 
+            <div class="col-sm-5 col-sm-offset-12 content-text-button box-shadow white">
+                  <div class="content-text-wrapper">                Submit</div>
+                  </div></a>
+                
+                </div>
+        
           </form>
         </section>
     </main>
+    
+    <br><br>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

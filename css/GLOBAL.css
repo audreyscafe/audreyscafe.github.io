@@ -5,12 +5,12 @@
  */
 
 @font-face {
-  font-family: 'Karla';
-  src: url("../fonts/Karla-Regular.ttf");
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Light.ttf");
 }
 
 body {
-  font-family: 'Karla', Arial, sans-serif;
+  font-family: 'Rubik', 'Karla', Arial, sans-serif;
   font-weight: 300;
 }
 
