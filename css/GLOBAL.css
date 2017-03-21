@@ -8,9 +8,13 @@
   font-family: 'Rubik';
   src: url("../fonts/Rubik-Light.ttf");
 }
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: url("../fonts/Rubik-Medium.ttf");
+}
 
 body {
-  font-family: 'Rubik', 'Karla', Arial, sans-serif;
+  font-family: 'Rubik', Arial, sans-serif;
   font-weight: 300;
 }
 

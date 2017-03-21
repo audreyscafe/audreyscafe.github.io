@@ -147,7 +147,7 @@ header {
 }
 
 #hours, #hours-js {
-  font-family: 'Rubik-Medium';
+  font-family: 'Rubik-Medium', Arial, sans-serif;;
   color: white;
   font-size: 1.8em;
   line-height: 1.6;
