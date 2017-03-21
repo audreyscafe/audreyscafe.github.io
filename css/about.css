@@ -25,7 +25,10 @@ p {
 }
 
 #ourstory{
+  width: 60%;
   text-align: center;
+  margin: 0 auto;
+  float: none;
 }
 
 #about {
@@ -66,9 +69,9 @@ p {
 }
 
 .content-text {
-  background-color: ;
   height: auto;
   margin-bottom: 10px;
+  font-size: 80%;
 }
 
 .content-image {
