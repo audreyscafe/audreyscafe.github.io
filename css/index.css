@@ -337,7 +337,11 @@ header {
   }
   .header-bg {
     background-image: url("../images/mobileheader.png"); 
-    }
+  }
+  .header-text {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   #hours, #hours-js, .header-text {
    font-size: 1.25em;
    text-align: center;
