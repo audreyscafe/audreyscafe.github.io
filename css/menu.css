@@ -12,15 +12,12 @@ a {
 
 /* left side*/
 
-.fixed-menu {
-
-  width: 120%;
-}
 
 
 .menu-desktop-left {
   height: auto;
   background-color: aqua;
+  width: 130%;
   /*margin-right: 30px; */
 }
 .menu-jumper-header {
@@ -112,9 +109,7 @@ a {
   .menu-area {
     width: 80%;
   }
-  .mobile {
-    display: none;
-  }
+
 }
 
 
@@ -123,9 +118,6 @@ a {
   .menu-area {
     display: none;
     width: 90%;
-  }
-  .mobile {
-    display: none;
   }
 }
 
