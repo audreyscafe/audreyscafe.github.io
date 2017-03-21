@@ -819,6 +819,10 @@
           $('.fixed-menu').css('position', '');
           $('.fixed-menu').css('width', '110%');
         }
+        if($('.fixed-menu').offset().top + $('.fixed-menu').height() 
+                                           >= $('#footer').offset().top - 0)
+        $('.fixed-menu').css('position', 'static');
+
       });
     </script>
 
