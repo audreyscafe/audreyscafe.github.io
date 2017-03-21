@@ -1,5 +1,8 @@
 /* CSS for menu.html */
-a {
+.menu-area a {
+  color: black;
+}
+.menu-area a:hover {
   color: black;
 }
 
@@ -7,7 +10,7 @@ a {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 /* left side*/
@@ -16,7 +19,7 @@ a {
 
 .menu-desktop-left {
   height: auto;
-  background-color: aqua;
+  /*background-color: aqua;*/
   width: 130%;
   /*margin-right: 30px; */
 }
@@ -28,16 +31,17 @@ a {
   height: 80%;
 }
 .menu-jumper {
-  overflow: auto;
+  overflow: hidden;
   width: 120%;
-  padding-top: 6px;
-  height: 40px;
+  min-width: 120px;
+  padding-top: 4px;
+  height: 35px;
   font-family: 'Karla', Arial, sans-serif;
   font-size: 18px;
   text-transform: capitalize;
   text-align: left;
   text-indent: 20px;
-  background-color: azure;
+  /*background-color: azure;*/
   outline: 1px solid lightgray;
 }
 
@@ -48,12 +52,12 @@ a {
 .menu-desktop-right {
   float: right;
   height: auto;
-  background-color: orange;
+  /*background-color: orange;*/
 }
 
 .menu-section {
   height: auto;
-  background-color: yellow;
+  /*background-color: yellow;*/
   margin-bottom: 20px;
   padding: 30px;
   border: 2px solid #DFDFDF;
@@ -64,21 +68,21 @@ a {
   font-weight: 700;
 }
 .menu-item {
-  background-color: peachpuff;
+  /*background-color: peachpuff;*/
   height: auto;
   padding: 0px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .menu-item-name {
-  background-color: pink;
+  /*background-color: pink;*/
   height: auto;
   padding: 0px;
   font-size: 1.05em;
   font-weight: 700;
 }
 .menu-item-price {
-  background-color: lightyellow;
+  /*background-color: lightyellow;*/
   height: auto;
   padding: 0px;
   text-align: right;
@@ -112,7 +116,6 @@ a {
 
 .panel-heading {
   height: 40px;
-  background-color: black;
 }
 
 

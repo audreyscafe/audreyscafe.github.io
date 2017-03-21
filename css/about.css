@@ -73,6 +73,15 @@ p {
 #sustainability {
   width: 80%;
   min-width: 300px;
+
+}
+
+#moveright {
+   padding-left: 120px;
+}
+
+#moveleft {
+  padding-right: 120px;
 }
 
 #story {
@@ -96,11 +105,13 @@ p {
 }
 
 #sustain {
-  padding-left: 80px;
+  padding-left: 100px;
+  width: 50%;
 }
 
 #join {
-  padding-right: 80px;
+  padding-right: 100px;
+  width: 50%
 
 }
 
@@ -109,6 +120,8 @@ p {
   /*height: auto; */
   min-width: 100px;
   padding: 0px;
+  
+  
 }
 .row2 .content-image img {
   box-shadow: -25px 25px #7C8CBD;
@@ -201,10 +214,20 @@ p {
   }
 
   #sustain {
-    padding-left: 40px;
+    padding-left: 30px;
+    width: 100%;
   }  
+
+  #moveright {
+   padding-left: 0px;
+}
+
+  #moveleft {
+    padding-right: 0px;
+  }
 
   #join {
     padding-right: 40px;
+    width: 100%;
   }
 }
