@@ -119,11 +119,11 @@ section {
     margin-bottom: 20px;
   }
   #footer-right {
-    width: 500px;
+    width: 100%;
 
   }
   #footer-left{
-    width: 500px;
+    width: 100%;
     padding-bottom: 0px;
   }
 }
