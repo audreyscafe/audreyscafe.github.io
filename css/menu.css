@@ -1,5 +1,8 @@
 /* CSS for menu.html */
-a {
+.menu-area a {
+  color: black;
+}
+.menu-area a:hover {
   color: black;
 }
 
@@ -28,8 +31,9 @@ a {
   height: 80%;
 }
 .menu-jumper {
-  overflow: auto;
+  overflow: hidden;
   width: 120%;
+  min-width: 120px;
   padding-top: 4px;
   height: 35px;
   font-family: 'Karla', Arial, sans-serif;
