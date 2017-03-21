@@ -45,6 +45,7 @@ header {
   z-index: 5;
   background-image: url("../images/home.png"); 
   background-size: cover;
+  background-position: right top;
   background-repeat: no-repeat;
   width: 100%;
   height: inherit;
@@ -161,20 +162,29 @@ header {
   padding: 0px;
 }
 
+.blurb {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .big-row {
   padding-right: 15px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 84%;
+  margin-left: 14%;
+  margin-right: 2%;
+}
+.small-row {
+  width: 84%;
+  margin-left: 14%;
+  margin-right: 2%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.last-row {
+  margin-bottom: 150px;
 }
 
-.small-row {
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+
 .content-text-and-image {
   background-color: turquoise;
   margin: 0px;
@@ -200,10 +210,11 @@ header {
   height: 375px;
 }
 .content-text-container {
-  height: 360px;
+  min-height: 360px;
 }
 .content-image {
-  max-height: 360px;
+  max-height: 400px;
+  /*width: 100%;*/
 }
 
 
@@ -220,8 +231,8 @@ header {
   overflow: hidden;
 }
 .content-image img {
-  /*width: 99.9%;*/
-  height: 100%; 
+  width: 99.9%;
+  /*height: 100%; */
 }
 .small-row .content-image img {
   /*
@@ -235,8 +246,14 @@ header {
 .content-text-container {
   background-color: gold;
   padding: 30px;
-  box-shadow: 15px 15px #F095BA;
+  box-shadow: 25px 25px #9C81C6;
   border: 2px solid black;
+}
+#content-text-container2 {
+  box-shadow: -25px 25px #7C8CBD;
+}
+#content-text-container3 {
+  box-shadow: 25px 25px #F095BA;
 }
 
 .small-row-left {
@@ -261,11 +278,20 @@ header {
 }
 
 .big-row .content-text-container {
-  left: -10%;
-  top: 75px;
+  top: 80px;
+  left: -12%;
   z-index: 10;
   position: relative;
 }
+.small-row .content-text-container {
+  top: 80px;
+  z-index: 10;
+  position: relative;
+}
+.small-row .content-image-container {
+  left: -140px;
+}
+
 
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
@@ -288,10 +314,19 @@ header {
   .content-image-container {
     height: auto;
   }
-  .big-row, .small-row {
+  .big-row, .small-row, .blurb {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .small-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .last-row {
+    margin-bottom: 50px;
   }
   .content-image img {
     width: 99.9%;
@@ -299,9 +334,19 @@ header {
   .small-row .content-text-container {
     width: 100%;
   }
-  .big-row .content-text-container {
+  .big-row .content-text-container, .small-row .content-text-container, .small-row .content-image-container {
     left: 0px;
     top: 0px;
     position: static;
+  }
+
+  .content-text-container {
+    box-shadow: 0px 25px #9C81C6;
+  }
+  #content-text-container2 {
+    box-shadow: 0px 25px #7C8CBD;
+  }
+  #content-text-container3 {
+    box-shadow: 0px 25px #F095BA;
   }
 }
