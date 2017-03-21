@@ -75,11 +75,11 @@ a:visited {
 }
 
 main {
-  background-color: red;
+  background-color: ;
 }
 
 section {
-  background-color: blue;
+  background-color: ;
 }
 
 textarea, input, button { outline: none; }
