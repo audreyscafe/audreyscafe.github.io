@@ -3,7 +3,7 @@
  */
 
 section {
-  background-color: aqua;
+  background-color: ;
   color: #3C3C3C;
 }
 
@@ -12,10 +12,14 @@ h1 {
   width: 100%;
   text-align: center;
 }
+p {
+  font-size: 180%;
+  letter-spacing: .5px;
+}
 
 .content-area {
   height: auto;
-  background-color: orange;
+  background-color: ;
   margin: 10px 10%;
   padding-bottom: 0px;
 }
@@ -40,7 +44,7 @@ h1 {
 }
 
 #hiring {
-  width: 40%;
+  width: 60%;
   min-width: 150px;
 }
 
@@ -49,20 +53,20 @@ h1 {
 }
 
 .content-text-container {
-  background-color: gold;
+  background-color: ;
   height: auto;
   padding: 30px;
 }
 
 .content-image-container {
-  background-color: khaki;
+  background-color: ;
   /*height: auto; */
   min-width: 100px;
   padding: 30px;
 }
 
 .content-text {
-  background-color: lightgray;
+  background-color: ;
   height: auto;
   margin-bottom: 10px;
 }

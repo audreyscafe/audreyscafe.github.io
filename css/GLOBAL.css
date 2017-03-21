@@ -5,12 +5,13 @@
  */
 
 @font-face {
-  font-family: 'Karla';
-  src: url("../fonts/Karla-Regular.ttf");
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Light.ttf");
 }
 
 body {
-  font-family: 'Karla', Arial, sans-serif;
+  font-family: 'Rubik', 'Karla', Arial, sans-serif;
+  font-weight: 300;
 }
 
 nav img {
@@ -19,13 +20,18 @@ nav img {
   height: 40px;
 }
 
+.navbar {
+  background-color: white;
+}
+
 .navbar-default {
   margin-bottom: 0px;
+
 }
 
 .social-media {
   height: 95px;
-  background-color: beige;
+  background-color: slategrey;
   padding: 10px;
 }
 
@@ -74,13 +80,15 @@ header {
 
 h2 {
   color: #AED3FF;
-  font-size: 0.8em;
+  font-size: 1.25em;
   font-weight: 700;
+  letter-spacing: 2.5px;
 }
 
 h3 {
   color: white;
   font-size: 1.25em;
+  letter-spacing: 1.75px;
 }
 
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/

@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional Bootstrap theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+
 
     <!-- Global stylesheet -->
     <link rel="stylesheet" href="css/GLOBAL.css" type="text/css">
@@ -49,7 +52,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Audrey's" height="25"></a>
+            <a href="#" class="navbar-brand"><a href="index.html"><img src="images/logo.png" alt="Audrey's"></a>
         </div>
         <!-- Collection of nav links and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -66,147 +69,360 @@
     <header class="short-header">
       <div class="short-header-bg row">            
           <div class="col-xs-12">
-            <img class="header-img" src="" alt="Menu"/>
+            <img class="header-img" src="images/menu-cover.png" alt="Menu"/>
           </div>
       </div>
       <div class="short-header-text"></div>
     </header>
 
-
     <main class="container-fluid white">
 
       <section class="row menu-area white">
-        <div class="col-sm-4" >
+        <div class="col-sm-4">
           <div class="menu-desktop-left white">
-            <div class="row">
+            <div class="fixed-menu">
+              <div class="row">
                 <div class="col-xs-12 col-sm-11">
                   <div class="menu-jumper-header"><img src="images/drinks.png"/></div>
                 </div>
                 <div class="col-xs-12 col-sm-11">
-                  <a href="#coffee"><div class="menu-jumper white">Coffee</div></a>
+                  <a href="#coffee"><div class="menu-jumper white">Classic Coffee</div></a>
+                </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href="#lattes-and-mochas"><div class="menu-jumper white">Lattes and Mochas</div></a>
+                </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href="#espresso"><div class="menu-jumper white">Espresso Beverages</div></a>
                 </div>
                 <div class="col-xs-12 col-sm-11">
                   <a href="#tea"><div class="menu-jumper white">Tea</div></a>
                 </div>
                 <div class="col-xs-12 col-sm-11">
-                  <a href="#bottled"><div class="menu-jumper white">Bottled</div></a>
+                  <a href="#blended"><div class="menu-jumper white">Blended</div></a>
                 </div>
-            </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href="#non-coffee"><div class="menu-jumper white">Non-Coffee</div></a>
+                </div>
+                <div class="col-xs-12 col-sm-11">
+                  <a href="#add-ons"><div class="menu-jumper white">Add-ons</div></a>
+                </div>
+              </div>
+
               
               <br>
           
-            <div class="row">
-                <div class="col-xs-12 col-sm-11">
-                  <div class="menu-jumper-header"><img src="images/pastries.png"/></div>
-                </div>
-                <div class="col-xs-12 col-sm-11">
-                  <a href="#savory"><div class="menu-jumper white">Savory</div></a>
-                </div>
-                <div class="col-xs-12 col-sm-11">
-                  <a href="#sweet"><div class="menu-jumper white">Sweet</div></a>
-                </div>
+              <div class="row">
+                  <div class="col-xs-12 col-sm-11">
+                    <div class="menu-jumper-header"><img src="images/snacks.png"/></div>
+                  </div>
+                  <div class="col-xs-12 col-sm-11">
+                    <a href="#savory"><div class="menu-jumper white">Savory</div></a>
+                  </div>
+                  <div class="col-xs-12 col-sm-11">
+                    <a href="#sweet"><div class="menu-jumper white">Sweet</div></a>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="col-sm-1"></div>
         <div class="col-sm-7 hidden-xs menu-desktop-right white">
           <div class="row">
               <div class="col-xs-12">
-
                 <div class="row menu-section white" id="coffee">
-                  <span class="menu-section-title">Coffee</span>
-                  <div class="col-xs-12 menu-item white">
-                      <div class="col-xs-6 menu-item-name white">Americano</div>
+                  <span class="menu-section-title">Classic Coffee</span>
+                   <div class="col-xs-12 menu-item white">
+                        <div class="col-xs-6 menu-item-name white">Brewed Coffee</div>
+                      <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                      <div class="col-xs-6 menu-item-name white">Coffee in Your Own Cup</div>
+                      <div class="col-xs-6 menu-item-price white">$1.50</div>
+                      
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                      <div class="col-xs-6 menu-item-name white">Cafe Au Lait</div>
+                      <div class="col-xs-6 menu-item-price white">$2.50</div>
+                     
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Cold Brew Iced Coffee</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                     
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Americano</div>
                     <div class="col-xs-6 menu-item-price white">$2.50</div>
-                    Brewed espresso and hot water.
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Kian</div>
+                    <div class="col-xs-6 menu-item-price white">$3.50</div>
+                    </div>
                 </div>
+
+
+                <div class="row menu-section white" id="lattes-and-mochas">
+                  <span class="menu-section-title">Lattes and Mochas</span>
+                  <div class="col-xs-12 menu-item white">
+                  <div class="col-xs-6 menu-item-name white">Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.25</div>
+                    </div>
+                     <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Audrey's Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Flavored Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.75</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Caramel Macchiato</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Mocha</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">White Mocha</div>
+                    <div class="col-xs-6 menu-item-price white">$4.25</div>
+                    </div>
+                  
+                </div>
+
+                <div class="row menu-section white" id="espresso">
+                  <span class="menu-section-title">Espresso</span>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Cappuccino</div>
+                    <div class="col-xs-6 menu-item-price white">$2.75</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Espresso</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    </div>
+                   <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Espresso con Panna</div>
+                    <div class="col-xs-6 menu-item-price white">$2.50</div>
+                    </div>
+                   <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Cafe Cortado</div>
+                    <div class="col-xs-6 menu-item-price white">$2.50</div>
+                    </div>
+                  
+                </div>
+
+
+
 
                 <div class="row menu-section white" id="tea">
                   <span class="menu-section-title">Tea</span>
                   <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
+                    <div class="col-xs-6 menu-item-name white">Iced Tea</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Berry Blossom Herbal, Moroccan Mint Green, Premium Black
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Hot Green and White Tea</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Coconut and Vanilla Cream, Green Gunpowder, Green Sencha, Moroccan Mint, Jasmine
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Hot Herbal Teas</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Berry Blossom, Green Yerba Mate, Chamomile Flower, Midnight Dreams, Lemonade Tisane, Blood Orange
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Hot Black Teas</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Earl Gray, English Breakfast, Shangri-La, Virtuoso Chai, Premium Black
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Chai Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.50</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Dirty Chai Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Matcha Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.50</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">London Fog</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">British Rose</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Natural Chai</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                    </div>
                 </div>
 
-                <div class="row menu-section white" id="bottled">
-                  <span class="menu-section-title">Bottled</span>
+                <div class="row menu-section white" id="blended">
+                  <span class="menu-section-title">Blended</span>
                   <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
+                  <div class="col-xs-6 menu-item-name white">Blended Coffee </div>
+                  <div class="col-xs-6 menu-item-price white">$4.00</div>
                   </div>
                   <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
+                  <div class="col-xs-6 menu-item-name white">Blended Mocha</div>
+                  <div class="col-xs-6 menu-item-price white">$4.00</div>
                   </div>
                   <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
+                  <div class="col-xs-6 menu-item-name white">Blended Caramel Mocha</div>
+                  <div class="col-xs-6 menu-item-price white">$4.50</div>
                   </div>
+                  <div class="col-xs-12 menu-item white">
+                  <div class="col-xs-6 menu-item-name white">Blended Chai</div>
+                  <div class="col-xs-6 menu-item-price white">$4.50</div>
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                  <div class="col-xs-6 menu-item-name white">Blended Audrey's Latte</div>
+                  <div class="col-xs-6 menu-item-price white">$4.50</div>
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                  <div class="col-xs-6 menu-item-name white">Blended Cotton Candy</div>
+                  <div class="col-xs-6 menu-item-price white">$4.50</div>
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                  <div class="col-xs-6 menu-item-name white">Blended Matcha</div>
+                  <div class="col-xs-6 menu-item-price white">$4.75</div>
+                  </div>
+                  <div class="col-xs-12 menu-item white">
+                  <div class="col-xs-6 menu-item-name white">Blended White Mocha</div>
+                  <div class="col-xs-6 menu-item-price white">$4.75</div>
+                  </div>
+                  
                 </div>
+
+                <div class="row menu-section white" id="non-coffee">
+                  <span class="menu-section-title">Non-Coffee</span>
+                  <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Hot Cocoa </div>
+                <div class="col-xs-6 menu-item-price white">$3.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Lavender Lemonade </div>
+                <div class="col-xs-6 menu-item-price white">$3.00</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Desert Pear Lemonade </div>
+                <div class="col-xs-6 menu-item-price white">$3.00</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Italian Soda </div>
+                <div class="col-xs-6 menu-item-price white">$3.25</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Red Bull Infusions </div>
+                <div class="col-xs-6 menu-item-price white">$4.50</div>
+                Lime in the Coconut, Orange Dreamsicle, Berries and Cream
+                </div>
+                  
+                </div>
+
+
+                <div class="row menu-section white" id="add-ons">
+                  <span class="menu-section-title">Add-Ons</span>
+                  <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Syrups </div>
+                <div class="col-xs-6 menu-item-price white">$0.50</div>
+                Choose from our wide selection
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Caffeine Shot </div>
+                <div class="col-xs-6 menu-item-price white">$0.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Soy Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.60</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Hemp Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.60</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Almond Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.70</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Coconut Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.70</div>
+                </div>
+                  
+                </div>
+
+               
 
 
                 <div class="row menu-section white" id="savory">
                   <span class="menu-section-title">Savory</span>
                   <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
+                <div class="col-xs-6 menu-item-name white">Croissants </div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Butter, Almond, Chocolate
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Baguettes </div>
+                <div class="col-xs-6 menu-item-price white">$2.00</div>
+                Demi French, Sourdough
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Bagels </div>
+                <div class="col-xs-6 menu-item-price white">$1.50</div>
+                Check out our daily selection
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Sandwiches </div>
+                <div class="col-xs-6 menu-item-price white">$7.00</div>
+                Check out our daily selection
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Salads </div>
+                <div class="col-xs-6 menu-item-price white">$5.00</div>
+                Check out our daily selection
+                </div>
                 </div>
 
                 <div class="row menu-section white" id="sweet">
                   <span class="menu-section-title">Sweet</span>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
-                  <div class="col-xs-12 menu-item white">
-                    <div class="col-xs-6 menu-item-name white">Name</div>
-                    <div class="col-xs-6 menu-item-price white">Price</div>
-                    Description
-                  </div>
+                   <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Muffins </div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Blueberry, Chocolate
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Cookies</div>
+                <div class="col-xs-6 menu-item-price white">$2.15</div>
+                Chocolate Chip, Oatmeal Raisin
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Breakfast Pastries</div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Apple Turnover, Cinnamon Roll, Cheese Danish, Chocolate Macaron
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Gluten Free Pastries</div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Paradise Bar, Walnut Brownie, Blueberry Muffin
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Scones</div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Orange Chocolate, Blueberry Cornmeal
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Breakfast Breads</div>
+                <div class="col-xs-6 menu-item-price white">$2.25</div>
+                Chocolate Chip Banana, Zesty Lemon, Zucchini, Chocolate Marble
+                </div>
+
+
                 </div>
               </div>
           </div>
@@ -219,80 +435,417 @@
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
-              <a data-toggle="collapse" href="#collapseOne">
-                <h4 class="panel-title">
-                  Coffee
-                </h4>
-              </a>
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Classic Coffee
+                </a>
+              </h4>
           </div>
           <div id="collapseOne" class="panel-collapse collapse in">
               <div class="panel-body">
                     <div class="col-xs-12 menu-item white">
-                        <div class="col-xs-6 menu-item-name white">Americano</div>
+                        <div class="col-xs-6 menu-item-name white">Brewed Coffee</div>
+                      <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                      <div class="col-xs-6 menu-item-name white">Coffee in Your Own Cup</div>
+                      <div class="col-xs-6 menu-item-price white">$1.50</div>
+                      
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                      <div class="col-xs-6 menu-item-name white">Cafe Au Lait</div>
                       <div class="col-xs-6 menu-item-price white">$2.50</div>
-                      Brewed espresso and hot water.
+                     
                     </div>
                     <div class="col-xs-12 menu-item white">
-                      <div class="col-xs-6 menu-item-name white">Name</div>
-                      <div class="col-xs-6 menu-item-price white">Price</div>
-                      Description
+                    <div class="col-xs-6 menu-item-name white">Cold Brew Iced Coffee</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                     
                     </div>
                     <div class="col-xs-12 menu-item white">
-                      <div class="col-xs-6 menu-item-name white">Name</div>
-                      <div class="col-xs-6 menu-item-price white">Price</div>
-                      Description
+                    <div class="col-xs-6 menu-item-name white">Americano</div>
+                    <div class="col-xs-6 menu-item-price white">$2.50</div>
                     </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Kian</div>
+                    <div class="col-xs-6 menu-item-price white">$3.50</div>
+                    </div>
+                   
+                    
+                    
               </div>
           </div>
         </div>
+
         <div class="panel panel-default">
           <div class="panel-heading">
-            <a data-toggle="collapse" href="#collapseTwo">
-              <h4 class="panel-title">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+              Lattes and Mochas
+              </a>
+            </h4>
+          </div>
+          <div id="collapseEight" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.25</div>
+                    </div>
+                     <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Audrey's Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Flavored Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.75</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Caramel Macchiato</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Mocha</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">White Mocha</div>
+                    <div class="col-xs-6 menu-item-price white">$4.25</div>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+              Espresso Beverages
+              </a>
+            </h4>
+          </div>
+          <div id="collapseNine" class="panel-collapse collapse in">
+            <div class="panel-body">
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Cappuccino</div>
+                    <div class="col-xs-6 menu-item-price white">$2.75</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Espresso</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    </div>
+                   <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Espresso con Panna</div>
+                    <div class="col-xs-6 menu-item-price white">$2.50</div>
+                    </div>
+                   <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Cafe Cortado</div>
+                    <div class="col-xs-6 menu-item-price white">$2.50</div>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                 Tea
-              </h4>
-            </a>
+              </a>
+            </h4>
           </div>
           <div id="collapseTwo" class="panel-collapse collapse in">
             <div class="panel-body">
-                copy from desktop version
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Iced Tea</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Berry Blossom Herbal, Moroccan Mint Green, Premium Black
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Hot Green and White Tea</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Coconut and Vanilla Cream, Green Gunpowder, Green Sencha, Moroccan Mint, Jasmine
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Hot Herbal Teas</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Berry Blossom, Green Yerba Mate, Chamomile Flower, Midnight Dreams, Lemonade Tisane, Blood Orange
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Hot Black Teas</div>
+                    <div class="col-xs-6 menu-item-price white">$2.00</div>
+                    Earl Gray, English Breakfast, Shangri-La, Virtuoso Chai, Premium Black
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Chai Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.50</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Dirty Chai Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$4.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Matcha Latte</div>
+                    <div class="col-xs-6 menu-item-price white">$3.50</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">London Fog</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">British Rose</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                    </div>
+                    <div class="col-xs-12 menu-item white">
+                    <div class="col-xs-6 menu-item-name white">Natural Chai</div>
+                    <div class="col-xs-6 menu-item-price white">$3.00</div>
+                    </div>
+
+
             </div>
           </div>
         </div>
+
         <div class="panel panel-default">
           <div class="panel-heading">
-            <a data-toggle="collapse" href="#collapseThree">
-              <h4 class="panel-title">
-                Savory
-              </h4>
-            </a>
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                Blended
+              </a>
+            </h4>
           </div>
-          <div id="collapseThree" class="panel-collapse collapse in">
+          <div id="collapseSeven" class="panel-collapse collapse in">
             <div class="panel-body">
-              copy from desktop version
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <a data-toggle="collapse" href="#collapseFour">
-              <h4 class="panel-title">
-                Sweet
-              </h4>
-            </a>
-          </div>
-          <div id="collapseFour" class="panel-collapse collapse in">
-            <div class="panel-body">
-              copy from desktop version
-            </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended Coffee </div>
+                <div class="col-xs-6 menu-item-price white">$4.00</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended Mocha</div>
+                <div class="col-xs-6 menu-item-price white">$4.00</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended Caramel Mocha</div>
+                <div class="col-xs-6 menu-item-price white">$4.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended Chai</div>
+                <div class="col-xs-6 menu-item-price white">$4.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended Audrey's Latte</div>
+                <div class="col-xs-6 menu-item-price white">$4.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended Cotton Candy</div>
+                <div class="col-xs-6 menu-item-price white">$4.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended Matcha</div>
+                <div class="col-xs-6 menu-item-price white">$4.75</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Blended White Mocha</div>
+                <div class="col-xs-6 menu-item-price white">$4.75</div>
+                </div>
+
           </div>
         </div>
       </div>
+
+
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Non-Coffee
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Hot Cocoa </div>
+                <div class="col-xs-6 menu-item-price white">$3.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Lavender Lemonade </div>
+                <div class="col-xs-6 menu-item-price white">$3.00</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Desert Pear Lemonade </div>
+                <div class="col-xs-6 menu-item-price white">$3.00</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Italian Soda </div>
+                <div class="col-xs-6 menu-item-price white">$3.25</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Red Bull Infusions </div>
+                <div class="col-xs-6 menu-item-price white">$4.50</div>
+                Lime in the Coconut, Orange Dreamsicle, Berries and Cream
+                </div>
+                
+            </div>
+          </div>
+        </div>   
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                Add-Ons
+              </a>
+            </h4>
+          </div>
+          <div id="collapseSix" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Syrups </div>
+                <div class="col-xs-6 menu-item-price white">$0.50</div>
+                Choose from our wide selection
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Caffeine Shot </div>
+                <div class="col-xs-6 menu-item-price white">$0.50</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Soy Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.60</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Hemp Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.60</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Almond Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.70</div>
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Coconut Milk </div>
+                <div class="col-xs-6 menu-item-price white">$0.70</div>
+                </div>
+            </div>
+          </div>
+        </div>     
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Savory
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Croissants </div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Butter, Almond, Chocolate
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Baguettes </div>
+                <div class="col-xs-6 menu-item-price white">$2.00</div>
+                Demi French, Sourdough
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Bagels </div>
+                <div class="col-xs-6 menu-item-price white">$1.50</div>
+                Check out our daily selection
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Sandwiches </div>
+                <div class="col-xs-6 menu-item-price white">$7.00</div>
+                Check out our daily selection
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Salads </div>
+                <div class="col-xs-6 menu-item-price white">$5.00</div>
+                Check out our daily selection
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                Sweet
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Muffins </div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Blueberry, Chocolate
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Cookies</div>
+                <div class="col-xs-6 menu-item-price white">$2.15</div>
+                Chocolate Chip, Oatmeal Raisin
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Breakfast Pastries</div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Apple Turnover, Cinnamon Roll, Cheese Danish, Chocolate Macaron
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Gluten Free Pastries</div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Paradise Bar, Walnut Brownie, Blueberry Muffin
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Scones</div>
+                <div class="col-xs-6 menu-item-price white">$2.50</div>
+                Orange Chocolate, Blueberry Cornmeal
+                </div>
+                <div class="col-xs-12 menu-item white">
+                <div class="col-xs-6 menu-item-name white">Breakfast Breads</div>
+                <div class="col-xs-6 menu-item-price white">$2.25</div>
+                Chocolate Chip Banana, Zesty Lemon, Zucchini, Chocolate Marble
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+            
+          </div>
+        </div> 
+
+        
+      </div>
+
+
 
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      var elementPosition = $('.fixed-menu').offset();
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > elementPosition.top) {
+          $('.fixed-menu').css('position', 'fixed').css('top', '0');
+        } else {
+          $('.fixed-menu').css('position', 'static');
+        }
+      });
+    </script>
 
     <noscript>
       <!-- handle noscript if time allows -->
@@ -323,12 +876,14 @@
         </div>
         -->
       </section>
+
+      <section class="social-media">
+        <div class="col-xs-12" id="icons">
+          <center><img src="icons/instagram.png" hspace="10"><img src="icons/facebook.png" hspace="10"><img src="icons/twitter.png" hspace="10"></center>
+        </div>
+      </section>
   </footer>
 
-  <section class="social-media">
-    <div class="col-xs-12" id="icons">
-      <center><img src="icons/facebook.png" hspace="10"><img src="icons/instagram.png" hspace="10"><img src="icons/twitter.png" hspace="10"></center>
-      </div>
-  </section>
+
 </html>
 

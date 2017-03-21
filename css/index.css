@@ -7,6 +7,15 @@ html {
   padding: 0px;
 }
 
+h1 {
+  font-size: 250%;
+}
+
+p {
+  font-size: 180%;
+  letter-spacing: .5px;
+}
+
 main {
   background-color: red;
 }
@@ -22,13 +31,19 @@ header {
 
 #hours-and-location {
   background-color: #E0EEEE;
-
-
 }
+
+#hr1{
+  margin: 0px;
+  color: #E5E5E5;
+  height: 1px;
+  border-bottom: 2px solid #E5E5E5;
+}
+
 .header-bg {
   position: absolute;
   z-index: 5;
-  background-image: url("../images/laptop.jpg"); 
+  background-image: url("../images/home.png"); 
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -88,6 +103,19 @@ header {
   width: 60%;
   min-width: 300px;
 }
+
+#friendlystaff, #seatingspace {
+  width: 90%;
+}
+
+#latehours {
+  width: 80%;
+}
+
+#howsyourdaygoing {
+  width: 85%;
+}
+
 /*
 #featured-drinks {
   background-color: #ADEAEA;
@@ -158,7 +186,7 @@ header {
   height: auto;
   */
 }
-.small-row .content-text-and-image {
+.content-text-and-image {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -193,7 +221,7 @@ header {
 }
 .content-image img {
   /*width: 99.9%;*/
-  height: 99.9%; 
+  height: 100%; 
 }
 .small-row .content-image img {
   /*
@@ -250,6 +278,12 @@ header {
 @media screen and (max-width: 768px) {
   main {
     background-color: green;
+  }
+  #howsyourdaygoing {
+    width: 100%;
+  }
+  h1 {
+    font-size: 200%;
   }
   .content-image-container {
     height: auto;

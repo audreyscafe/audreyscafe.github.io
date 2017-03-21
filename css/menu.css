@@ -5,10 +5,17 @@
   background-color: red;
 }
 
-
 /* left side*/
+
+.fixed-menu {
+  position: fixed;
+
+}
 .menu-desktop-left {
+  float: left;
+  margin-top: 0;
   height: auto;
+  width: 145%;
   background-color: aqua;
   /*margin-right: 30px; */
 }
@@ -34,11 +41,15 @@
 
 
 /* right side*/
+
+
 .menu-desktop-right {
-  margin-top: 50px;
+  float: right;
+  margin-top: 60px;
   height: auto;
   background-color: orange;
 }
+
 .menu-section {
   height: auto;
   background-color: yellow;
@@ -71,6 +82,20 @@
   padding: 0px;
   text-align: right;
   font-weight: 700;
+}
+
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;  
 }
 
 
