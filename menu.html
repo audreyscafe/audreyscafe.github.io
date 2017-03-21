@@ -810,6 +810,7 @@
 
     <script type="text/javascript">
       var elementPosition = $('.fixed-menu').offset();
+      console.log("elementPosition: " + elementPosition);
 
       $(window).scroll(function () {
         if ($(window).scrollTop() > elementPosition.top) {
