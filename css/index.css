@@ -310,9 +310,11 @@ header {
   .header-bg {
     background-image: url("../images/mobileheader.png"); 
     }
-  #hours, #hours-js {
-  font-size: 1.5em;
+  #hours, #hours-js, .header-text {
+  font-size: 1.3em;
   text-align: center;
+  padding-left: 0px;
+  padding-top: 10px;
   }
     
   #howsyourdaygoing {
