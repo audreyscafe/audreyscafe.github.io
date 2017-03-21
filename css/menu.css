@@ -30,8 +30,8 @@ a {
 .menu-jumper {
   overflow: auto;
   width: 120%;
-  padding-top: 4px;
-  height: 35px;
+  padding-top: 6px;
+  height: 40px;
   font-family: 'Karla', Arial, sans-serif;
   font-size: 18px;
   text-transform: capitalize;
