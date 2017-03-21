@@ -95,6 +95,15 @@ p {
   padding: 30px;
 }
 
+#sustain {
+  padding-left: 80px;
+}
+
+#join {
+  padding-right: 80px;
+
+}
+
 .content-image-container {
   background-color: ;
   /*height: auto; */
@@ -125,6 +134,7 @@ p {
 .content-text-wrapper {
   margin-left: 10px;
   text-align: center;
+
 }
 
 
@@ -153,7 +163,7 @@ p {
     margin: 0px 10%;
     color: #E5E5E5;
     height: 1px;
-    border-bottom: 2px solid #E5E5E5;
+    
   }
 
 }
@@ -161,6 +171,10 @@ p {
 @media screen and (max-width: 768px) {
   .container-fluid {
     background-color:;
+  }
+
+  #hr1 {
+    border-bottom: none;
   }
   .content-area, hr {
     margin: 10px 0px;
@@ -184,5 +198,13 @@ p {
     width: 95%;
     float: right;
     margin-bottom: 50px;
+  }
+
+  #sustain {
+    padding-left: 40px;
+  }  
+
+  #join {
+    padding-right: 40px;
   }
 }
