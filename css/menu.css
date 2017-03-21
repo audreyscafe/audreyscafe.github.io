@@ -1,3 +1,8 @@
+/* CSS for menu.html */
+a {
+  color: black;
+}
+
 .menu-area {
   width: 70%;
   margin-left: auto;
@@ -7,16 +12,12 @@
 
 /* left side*/
 
-.fixed-menu {
-  position: fixed;
 
-}
+
 .menu-desktop-left {
-  float: left;
-  margin-top: 0;
   height: auto;
-  width: 145%;
   background-color: aqua;
+  width: 130%;
   /*margin-right: 30px; */
 }
 .menu-jumper-header {
@@ -28,12 +29,15 @@
   height: 80%;
 }
 .menu-jumper {
-  height: 60px;
+  width: 120%;
+  height: 50px;
   font-family: 'Karla', Arial, sans-serif;
   font-size: 20px;
-  text-align: center;
-  margin-top: 1px;
+  text-transform: capitalize;
+  text-align: left;
+  text-indent: 20px;
   background-color: azure;
+  border-top: 2px solid lightgray;
   border-left: 2px solid lightgray;
   border-right: 2px solid lightgray;
   border-bottom: 2px solid lightgray;
@@ -45,7 +49,6 @@
 
 .menu-desktop-right {
   float: right;
-  margin-top: 60px;
   height: auto;
   background-color: orange;
 }
@@ -85,31 +88,35 @@
 }
 
 
+
 .panel-heading .accordion-toggle.collapsed:after {
     /* symbol for "collapsed" panels */
-    content: "\e080";
+    content: url(../images/down.png);
 }
 
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
+    margin-top: -3px;
     font-family: 'Glyphicons Halflings';
-    content: "\e114";
+    content: url(../images/up.png);
     float: right;
     color: grey;  
 }
 
 
 /* ADJUSTMENTS FOR MD SCREEN SIZE*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .menu-area {
     width: 80%;
   }
+
 }
 
 
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
   .menu-area {
+    display: none;
     width: 90%;
   }
 }
@@ -117,6 +124,7 @@
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
 @media screen and (max-width: 768px) {
   .menu-area {
+    display: none;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
