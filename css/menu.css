@@ -17,7 +17,7 @@ a {
 .menu-desktop-left {
   height: auto;
   background-color: aqua;
-
+  width: 130%;
   /*margin-right: 30px; */
 }
 .menu-jumper-header {
@@ -29,13 +29,15 @@ a {
   height: 80%;
 }
 .menu-jumper {
+  width: 120%;
   height: 50px;
   font-family: 'Karla', Arial, sans-serif;
   font-size: 20px;
+  text-transform: capitalize;
   text-align: left;
   text-indent: 20px;
   background-color: azure;
-  border-top: 1px solid lightgray;
+  border-top: 2px solid lightgray;
   border-left: 2px solid lightgray;
   border-right: 2px solid lightgray;
   border-bottom: 2px solid lightgray;
@@ -43,6 +45,8 @@ a {
 
 
 /* right side*/
+
+
 .menu-desktop-right {
   float: right;
   height: auto;
@@ -84,18 +88,33 @@ a {
 }
 
 
-.panel-heading .accordion-toggle.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: url(../images/down.png);
+.mobile-menu-headers {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+
 .panel-heading .accordion-toggle:after {
-    /* symbol for "opening" panels */
+    /* symbol for "collapsed" panels */
     margin-top: -3px;
     font-family: 'Glyphicons Halflings';
     content: url(../images/up.png);
     float: right;
+    color: grey;
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "opening" panels */
+    margin-top: -3px;
+    font-family: 'Glyphicons Halflings';
+    content: url(../images/down.png);
+    float: right;
     color: grey;  
+}
+
+.panel-heading {
+  height: 40px;
+  background-color: black;
 }
 
 
@@ -104,7 +123,9 @@ a {
   .menu-area {
     width: 80%;
   }
+
 }
+
 
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
