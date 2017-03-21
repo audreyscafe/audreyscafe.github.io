@@ -62,6 +62,10 @@ header {
   width: 100%;
 
 }
+.short-header-bg {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 .header-img {
   width: 100%;
