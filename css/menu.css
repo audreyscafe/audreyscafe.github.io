@@ -15,7 +15,7 @@
   float: left;
   margin-top: 0;
   height: auto;
-  width: 145%;
+  width: 150%;
   background-color: aqua;
   /*margin-right: 30px; */
 }
@@ -87,13 +87,13 @@
 
 .panel-heading .accordion-toggle.collapsed:after {
     /* symbol for "collapsed" panels */
-    content: "\e080";
+    content: "\e114";
 }
 
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
     font-family: 'Glyphicons Halflings';
-    content: "\e114";
+    content: "\e113";
     float: right;
     color: grey;  
 }

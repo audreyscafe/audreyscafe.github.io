@@ -39,17 +39,17 @@ p {
 }
 
 #story {
- width: 30%;
+ width: 40%;
  min-width: 200px;
 }
 
 #hiring {
-  width: 60%;
+  width: 70%;
   min-width: 150px;
 }
 
 .content-text-and-image {
-  background-color: turquoise;
+  background-color: ;
 }
 
 .content-text-container {
@@ -115,7 +115,10 @@ p {
    #about {
     margin: 0px;
     }
-
+  #story {
+    width: 50%;
+    min-width: 200px;
+  }
 }
 
 
