@@ -7,8 +7,13 @@ html {
   padding: 0px;
 }
 
+h1 {
+  font-size: 250%;
+}
+
 p {
   font-size: 180%;
+  letter-spacing: .5px;
 }
 
 main {
@@ -100,10 +105,14 @@ header {
 }
 
 #friendlystaff, #seatingspace {
-  width: 100%;
+  width: 90%;
 }
 
 #latehours {
+  width: 80%;
+}
+
+#howsyourdaygoing {
   width: 85%;
 }
 
@@ -262,6 +271,12 @@ header {
 @media screen and (max-width: 768px) {
   main {
     background-color: green;
+  }
+  #howsyourdaygoing {
+    width: 100%;
+  }
+  h1 {
+    font-size: 200%;
   }
   .content-image-container {
     height: auto;

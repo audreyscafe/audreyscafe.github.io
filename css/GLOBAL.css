@@ -80,13 +80,15 @@ header {
 
 h2 {
   color: #AED3FF;
-  font-size: 0.8em;
+  font-size: 1.25em;
   font-weight: 700;
+  letter-spacing: 2.5px;
 }
 
 h3 {
   color: white;
   font-size: 1.25em;
+  letter-spacing: 1.75px;
 }
 
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
