@@ -73,7 +73,6 @@ header {
 
 #footer {
   background-color: #4990E2;
-  padding-left: 30px;
   margin-top: 30px;
   padding-bottom: 0px;
 }
@@ -81,7 +80,8 @@ header {
 #footer-left {
   background-color: #4990E2;
   height: 60%;
-  padding-left: 2%;
+  padding-left: 5%;
+  padding-bottom: 37px;
 }
 
 #footer-right {
@@ -91,11 +91,13 @@ header {
 #footer, .social-media {
   margin-left: 0px;
   margin-right: 0px;
+  background-color: #2F75C6;
+  padding-bottom: 10px;
 }
 
 h2 {
   color: #AED3FF;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 700;
   letter-spacing: 2.5px;
 }
@@ -120,5 +122,13 @@ section {
 @media screen and (max-width: 768px) {
   .short-header {
     margin-bottom: 20px;
+  }
+  #footer-right {
+    width: 500px;
+
+  }
+  #footer-left{
+    width: 500px;
+    padding-bottom: 0px;
   }
 }
