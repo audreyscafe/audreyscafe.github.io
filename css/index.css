@@ -7,6 +7,10 @@ html {
   padding: 0px;
 }
 
+p {
+  font-size: 180%;
+}
+
 main {
   background-color: red;
 }
@@ -25,7 +29,7 @@ header {
 }
 
 #hr1{
-  margin: 0px 7.5%;
+  margin: 0px;
   color: #E5E5E5;
   height: 1px;
   border-bottom: 2px solid #E5E5E5;
@@ -94,6 +98,15 @@ header {
   width: 60%;
   min-width: 300px;
 }
+
+#friendlystaff, #seatingspace {
+  width: 100%;
+}
+
+#latehours {
+  width: 85%;
+}
+
 /*
 #featured-drinks {
   background-color: #ADEAEA;
@@ -164,7 +177,7 @@ header {
   height: auto;
   */
 }
-.small-row .content-text-and-image {
+.content-text-and-image {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -199,7 +212,7 @@ header {
 }
 .content-image img {
   /*width: 99.9%;*/
-  height: 99.9%; 
+  height: 100%; 
 }
 .small-row .content-image img {
   /*
