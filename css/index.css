@@ -232,6 +232,13 @@ header {
   margin-left: 10px;
 }
 
+.big-row .content-text-container {
+  left: -10%;
+  top: 75px;
+  z-index: 10;
+  position: relative;
+}
+
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
   main {
@@ -257,5 +264,10 @@ header {
   }
   .small-row .content-text-container {
     width: 100%;
+  }
+  .big-row .content-text-container {
+    left: 0px;
+    top: 0px;
+    position: static;
   }
 }
