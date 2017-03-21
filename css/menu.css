@@ -30,17 +30,15 @@ a {
 }
 .menu-jumper {
   width: 120%;
-  height: 50px;
+  padding-top: 6px;
+  height: 40px;
   font-family: 'Karla', Arial, sans-serif;
   font-size: 20px;
   text-transform: capitalize;
   text-align: left;
   text-indent: 20px;
   background-color: azure;
-  border-top: 2px solid lightgray;
-  border-left: 2px solid lightgray;
-  border-right: 2px solid lightgray;
-  border-bottom: 2px solid lightgray;
+  outline: 2px solid lightgray;
 }
 
 
@@ -123,14 +121,12 @@ a {
   .menu-area {
     width: 80%;
   }
-
 }
-
 
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
   .menu-area {
-    display: none;
+
     width: 90%;
   }
 }
