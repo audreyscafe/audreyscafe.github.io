@@ -235,8 +235,8 @@ header {
   overflow: hidden;
 }
 .content-image img {
-  width: 99.9%;
-  /*height: 100%; */
+  /*width: 99.9%;*/
+  height: 100%;
 }
 .small-row .content-image img {
   /*
