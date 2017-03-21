@@ -38,6 +38,7 @@ header {
   color: #E5E5E5;
   height: 1px;
   border-bottom: 2px solid #E5E5E5;
+  padding: 8px;
 }
 
 .header-bg {
@@ -164,6 +165,26 @@ header {
   /*background-color: orange;*/
   margin: 0px;
   padding: 0px;
+}
+
+.content-text-button {
+  padding: 15px;
+  width: 30%;
+  box-shadow: -8px 8px #D9D9D9;
+  border: 2px solid black;
+}
+.content-text-wrapper {
+
+  text-align: center;
+}
+#button {
+  font-size: 20px;
+}
+#button:hover {
+  text-decoration: none;
+}
+.box-shadow:hover {
+  box-shadow: -8px 8px #C29DBE;
 }
 
 .blurb {
