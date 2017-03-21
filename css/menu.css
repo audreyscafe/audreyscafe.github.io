@@ -15,15 +15,13 @@ a {
 .fixed-menu {
   position: fixed;
   float: left;
-}
-.float-right {
-  float: right;
+  width: 100%;
 }
 
+
 .menu-desktop-left {
-  margin-top: 0;
   height: auto;
-  width: 150%;
+  width: 160%;
   background-color: aqua;
   /*margin-right: 30px; */
 }
@@ -36,12 +34,14 @@ a {
   height: 80%;
 }
 .menu-jumper {
-  height: 60px;
+  height: 50px;
   font-family: 'Karla', Arial, sans-serif;
   font-size: 20px;
-  text-align: center;
-  margin-top: 1px;
+  text-transform: capitalize;
+  text-align: left;
+  text-indent: 20px;
   background-color: azure;
+  border-top: 2px solid lightgray;
   border-left: 2px solid lightgray;
   border-right: 2px solid lightgray;
   border-bottom: 2px solid lightgray;
@@ -53,7 +53,6 @@ a {
 
 .menu-desktop-right {
   float: right;
-  margin-top: 60px;
   height: auto;
   background-color: orange;
 }
@@ -101,6 +100,7 @@ a {
 
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
+    margin-top: -3px;
     font-family: 'Glyphicons Halflings';
     content: url(../images/up.png);
     float: right;
