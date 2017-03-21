@@ -145,9 +145,11 @@ header {
 }
 
 #hours, #hours-js {
+  font-family: 'Rubik-Medium';
   color: white;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 1.8em;
+  line-height: 1.6;
+  text-shadow: 2px 2px #E9AD10;
 
 }
 
@@ -304,6 +306,13 @@ header {
 @media screen and (max-width: 768px) {
   main {
     background-color: green;
+  }
+  .header-bg {
+    background-image: url("../images/mobileheader.png"); 
+    }
+  #hours, #hours-js {
+  font-size: 1.5em;
+  text-align: center;
   }
   #howsyourdaygoing {
     width: 100%;
