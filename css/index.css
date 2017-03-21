@@ -361,6 +361,9 @@ header {
   #howsyourdaygoing {
     width: 90%;
   }
+  .content-text-button {
+    width: 50%;
+  }
   h1 {
     font-size: 150%;
     text-align: center;
