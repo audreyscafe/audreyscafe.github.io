@@ -3,8 +3,22 @@
  */
 
 section {
+  width: 100%;
+}
+.short-header-bg {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+section {
   background-color: ;
   color: #3C3C3C;
+}
+
+.container-fluid {
+  background-color: ;
+  padding: 0px;
 }
 
 h1 {
@@ -18,10 +32,30 @@ p {
 }
 
 .content-area {
+  width: 80%;
   height: auto;
   background-color: ;
   margin: 10px 10%;
   padding-bottom: 0px;
+}
+.row1 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row2 {
+  width: 85%;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+.row3 {
+  width: 85%;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-top: 75px;
+  margin-bottom: 25px;
 }
 
 #ourstory{
@@ -65,7 +99,13 @@ p {
   background-color: ;
   /*height: auto; */
   min-width: 100px;
-  padding: 30px;
+  padding: 0px;
+}
+.row2 .content-image img {
+  box-shadow: -25px 25px #7C8CBD;
+}
+.row3 .content-image img {
+  box-shadow: 25px 25px #F095BA;
 }
 
 .content-text {
@@ -83,12 +123,12 @@ p {
 }
 
 .content-text-wrapper {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 
 #hr1 {
-  margin: 0px 10%;
+  margin: 0px 15%;
   color: #E5E5E5;
   height: 1px;
   border-bottom: 2px solid #E5E5E5;
@@ -97,9 +137,14 @@ p {
 
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
+  .container-fluid {
+    background-color: ;
+  }
+  /*
   .content-area, hr {
     margin: 10px 5%;
   }
+  */
   #about {
     margin: 0px;
     }
@@ -108,10 +153,14 @@ p {
     color: #E5E5E5;
     height: 1px;
     border-bottom: 2px solid #E5E5E5;
-    }
+  }
+
 }
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
 @media screen and (max-width: 768px) {
+  .container-fluid {
+    background-color:;
+  }
   .content-area, hr {
     margin: 10px 0px;
   }
@@ -122,12 +171,17 @@ p {
     width: 50%;
     min-width: 200px;
   }
-}
-
-
-#test {
-  opacity: 0.2;
-  position: absolute;
-  top: 500px;
-  right: 0px;
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row2 .content-image img {
+    width: 95%;
+  }
+  .row3 .content-image img {
+    width: 95%;
+    float: right;
+    margin-bottom: 50px;
+  }
 }

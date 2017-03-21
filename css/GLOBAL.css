@@ -42,12 +42,12 @@ nav img {
 
 header {
   height: 400px;
-  background-color: blue;
+  background-color: ;
   text-align: center;
 }
 .short-header {
   height: auto;
-  background-color: green;
+  background-color: ;
   margin-bottom: 50px;
 
 }
@@ -81,6 +81,10 @@ header {
   background-color: #4990E2;
   height: 60%;
 }
+#footer, .social-media {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 h2 {
   color: #AED3FF;
@@ -93,6 +97,16 @@ h3 {
   color: white;
   font-size: 1.25em;
   letter-spacing: 1.75px;
+}
+
+
+section {
+  width: 100%;
+}
+.header-img-wrapper {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
 }
 
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
