@@ -126,7 +126,7 @@ a {
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
   .menu-area {
-    display: none;
+
     width: 90%;
   }
 }
