@@ -21,24 +21,24 @@ a {
   /*margin-right: 30px; */
 }
 .menu-jumper-header {
-  height: 60px;
+  height: 50px;
   margin-top: 10px;
-  border-bottom: 2px solid #DFDFDF;
 }
 .menu-jumper-header img {
   height: 80%;
 }
 .menu-jumper {
+  overflow: auto;
   width: 120%;
   padding-top: 6px;
-  height: 40px;
+  height: 35px;
   font-family: 'Karla', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: capitalize;
   text-align: left;
   text-indent: 20px;
   background-color: azure;
-  outline: 2px solid lightgray;
+  outline: 1px solid lightgray;
 }
 
 
