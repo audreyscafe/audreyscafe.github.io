@@ -1,3 +1,8 @@
+/* CSS for menu.html */
+a {
+  color: black;
+}
+
 .menu-area {
   width: 70%;
   margin-left: auto;
@@ -9,10 +14,13 @@
 
 .fixed-menu {
   position: fixed;
-
-}
-.menu-desktop-left {
   float: left;
+}
+.float-right {
+  float: right;
+}
+
+.menu-desktop-left {
   margin-top: 0;
   height: auto;
   width: 150%;
@@ -85,15 +93,16 @@
 }
 
 
+
 .panel-heading .accordion-toggle.collapsed:after {
     /* symbol for "collapsed" panels */
-    content: "\e114";
+    content: url(../images/down.png);
 }
 
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
     font-family: 'Glyphicons Halflings';
-    content: "\e113";
+    content: url(../images/up.png);
     float: right;
     color: grey;  
 }

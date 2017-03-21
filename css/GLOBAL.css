@@ -30,9 +30,13 @@ nav img {
 }
 
 .social-media {
-  height: 95px;
+  height: 84px;
   background-color: #4990E2;
   padding: 10px;
+}
+
+#smimg {
+  width: 3%;
 }
 
 
