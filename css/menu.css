@@ -13,15 +13,13 @@ a {
 /* left side*/
 
 .fixed-menu {
-  position: fixed;
-  float: left;
-  width: 100%;
+
+  width: 120%;
 }
 
 
 .menu-desktop-left {
   height: auto;
-  width: 160%;
   background-color: aqua;
   /*margin-right: 30px; */
 }
@@ -34,6 +32,7 @@ a {
   height: 80%;
 }
 .menu-jumper {
+  width: 120%;
   height: 50px;
   font-family: 'Karla', Arial, sans-serif;
   font-size: 20px;
@@ -109,9 +108,12 @@ a {
 
 
 /* ADJUSTMENTS FOR MD SCREEN SIZE*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .menu-area {
     width: 80%;
+  }
+  .mobile {
+    display: none;
   }
 }
 
@@ -119,13 +121,18 @@ a {
 /* ADJUSTMENTS FOR SM SCREEN SIZE*/
 @media screen and (max-width: 992px) {
   .menu-area {
+    display: none;
     width: 90%;
+  }
+  .mobile {
+    display: none;
   }
 }
 
 /* ADJUSTMENTS FOR XS SCREEN SIZE*/
 @media screen and (max-width: 768px) {
   .menu-area {
+    display: none;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;

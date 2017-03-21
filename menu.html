@@ -413,7 +413,7 @@
 
 
       <!-- MOBILE -->
-    <section>
+    <section class="mobile">
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -800,6 +800,7 @@
 
       $(window).scroll(function () {
         if ($(window).scrollTop() > elementPosition.top) {
+          //$('.fixed-menu').css('width', ; '120%');
           $('.fixed-menu').css('position', 'fixed').css('top', '0');
         } else {
           $('.fixed-menu').css('position', 'static');
